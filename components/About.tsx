@@ -6,7 +6,9 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function About() {
+  
   const { t } = useLanguage();
+
 
   return (
     <section id="about" className="py-28 px-6 md:px-12 border-b border-slate-200 dark:border-slate-800">
@@ -19,7 +21,7 @@ export default function About() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-8 text-center"
       >
-        About Me
+        {t.titles.about}
       </motion.h2>
 
       {/* TEXT */}

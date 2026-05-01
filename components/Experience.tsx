@@ -21,7 +21,7 @@ export default function Experience() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-16 text-center"
       >
-        Experience
+        {t.titles.experience}
       </motion.h2>
 
       <div className="relative border-l border-gray-300 dark:border-gray-700">

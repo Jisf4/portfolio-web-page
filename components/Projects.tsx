@@ -35,7 +35,7 @@ export default function Projects() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-12 text-center"
       >
-        Projects
+        {t.titles.projects}
       </motion.h2>
 
       {/* GRID */}

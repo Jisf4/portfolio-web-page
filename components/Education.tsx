@@ -19,7 +19,7 @@ export default function Education() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-12 text-center"
       >
-        Education
+        {t.titles.education}
       </motion.h2>
 
       <div className="space-y-8">

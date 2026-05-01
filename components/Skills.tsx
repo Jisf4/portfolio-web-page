@@ -36,7 +36,7 @@ export default function Skills() {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-12 text-center"
       >
-        Skills
+        {t.titles.skills}
       </motion.h2>
 
       {/* GRID CONTAINER */}

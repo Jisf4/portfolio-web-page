@@ -18,7 +18,7 @@ export default function Contact() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-8"
       >
-        Contact
+        {t.titles.contact}
       </motion.h2>
 
       <motion.p

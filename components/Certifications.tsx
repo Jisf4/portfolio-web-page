@@ -34,7 +34,7 @@ export default function Certifications() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-4xl md:text-5xl tracking-tight font-bold mb-12 text-center"
       >
-        Certifications
+        {t.titles.certifications}
       </motion.h2>
       <motion.div
         variants={container}

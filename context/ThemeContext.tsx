@@ -12,7 +12,7 @@ type ThemeContextType = {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>("light"); // default LIGHT
+  const [theme, setTheme] = useState<Theme>("dark"); // default dark
 
   // 🔥 Apply theme to <html>
   useEffect(() => {
@@ -23,8 +23,6 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     } else {
       html.classList.remove("dark");
     }
-
-    console.log("Theme applied:", theme); // DEBUG
   }, [theme]);
 
   // 🔥 Load saved theme

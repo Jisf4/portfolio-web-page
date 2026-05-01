@@ -6,19 +6,23 @@ import { useLanguage } from "@/context/LanguageContext";
 import { useTheme } from "@/context/ThemeContext";
 import { useState } from 'react';
 import { Menu, X } from "lucide-react";
+import { navbar } from "@/data/content";
 
 export default function Navbar() {
   const { language, setLanguage } = useLanguage();
   const { theme, toggleTheme } = useTheme();
   const navItems = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Skills", href: "#skills" },
-    { label: "Projects", href: "#projects" },
-    { label: "Experience", href: "#experience" },
-    { label: "Education", href: "#education" },
-    { label: "Certifications", href: "#certifications" },
-    { label: "Contact", href: "#contact" },
+    { label: navbar[language].home, href: "#home" },
+    { label: navbar[language].about, href: "#about" },
+    { label: navbar[language].skills, href: "#skills" },
+    { label: navbar[language].projects, href: "#projects" },
+    { label: navbar[language].experience, href: "#experience" },
+    { label: navbar[language].education, href: "#education" },
+    {
+      label: navbar[language].certifications,
+      href: "#certifications",
+    },
+    { label: navbar[language].contact, href: "#contact" },
   ];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 

@@ -185,6 +185,15 @@ export const content = {
       email: "josuesf4@gmail.com",
       phone: "950 382 960",
     },
+    titles: {
+      about: "About",
+      skills: "Skills",
+      projects: "Projects",
+      experience: "Experience",
+      education: "Education",
+      certifications: "Certifications",
+      contact: "Contact",
+    },
     buttons: {
       projects: "View Projects",
       cv: "Download CV"
@@ -373,9 +382,43 @@ export const content = {
       email: "josuesf4@gmail.com",
       phone: "950 382 960",
     },
+    titles: {
+      about: "Sobre mí",
+      skills: "Habilidades",
+      projects: "Proyectos",
+      experience: "Experiencia",
+      education: "Educación",
+      certifications: "Certificaciones",
+      contact: "Contacto",
+    },
     buttons: {
       projects: "Ver Proyectos",
       cv: "Descargar CV"
     },
   },
 };
+
+export const navbar = {
+  en: {
+    home: "Home",
+    about: "About",
+    skills: "Skills",
+    projects: "Projects",
+    experience: "Experience",
+    education: "Education",
+    certifications: "Certifications",
+    contact: "Contact",
+  },
+
+  es: {
+    home: "Inicio",
+    about: "Sobre mí",
+    skills: "Habilidades",
+    projects: "Proyectos",
+    experience: "Experiencia",
+    education: "Educación",
+    certifications: "Certificaciones",
+    contact: "Contacto",
+  },
+};
+
