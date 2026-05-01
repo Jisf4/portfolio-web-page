@@ -5,6 +5,7 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 
+
 export default function Hero() {
   const { t } = useLanguage();
   const container = {
@@ -22,7 +23,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex flex-col justify-center 
+    <section id="home" className="min-h-screen flex flex-col justify-center 
     items-center text-center px-6
     border-b border-slate-200 dark:border-slate-800">
 
