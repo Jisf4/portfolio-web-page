@@ -27,7 +27,7 @@ html {
 };
 
 .animate-blob {
-  animation: blob 18s infinite ease-in-out;
+  animation: blob 9s infinite ease-in-out;
 }
 
 .animation-delay-2000 {

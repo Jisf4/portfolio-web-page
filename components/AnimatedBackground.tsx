@@ -3,48 +3,48 @@ export default function AnimatedBackground() {
   return (
     
     <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+
+
+
+
+        <div
+        className="absolute inset-0"
+        style={{
+            background: `
+            radial-gradient(
+                circle at center,
+                rgba(6,182,212,0.15),
+                transparent 65%
+            )
+            `,
+        }}
+        />
+
         <div
         className="
             absolute inset-0
-            opacity-[0.015]
+            opacity-[1]
             mix-blend-soft-light
         "
         style={{
             backgroundImage:
-            "url('https://grainy-gradients.vercel.app/noise.svg')",
+            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Ccircle cx='10' cy='10' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
         }}
         />
-        <div
-        className="
-            absolute inset-0
-            bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),
-            linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)]
-            bg-[size:60px_60px]
 
-            dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.04)_1px,transparent_1px),
-            linear-gradient(to_bottom,rgba(255,255,255,0.04)_1px,transparent_1px)]
-        "
-        />
 
-        <div
-        className="
-            absolute inset-0
-            bg-[radial-gradient(circle_at_center,rgba(6,182,212,0.12),transparent_65%)]
-        "
-        />
       
       {/* Cyan Blob */}
       <div
         className="
           absolute
-          top-[-10rem]
+          top-[7rem]
           left-[-5rem]
           w-[35rem]
           h-[35rem]
           rounded-full
-          bg-cyan-400/20
-          dark:bg-cyan-500/20
-          blur-3xl
+          dark:bg-blue-500/20
+          blur-[120px]
           animate-blob
         "
       />
@@ -58,9 +58,9 @@ export default function AnimatedBackground() {
           w-[40rem]
           h-[40rem]
           rounded-full
-          bg-purple-400/20
+  
           dark:bg-purple-500/20
-          blur-3xl
+          blur-[120px]
           animate-blob animation-delay-2000
         "
       />
@@ -74,9 +74,8 @@ export default function AnimatedBackground() {
           w-[35rem]
           h-[35rem]
           rounded-full
-          bg-blue-400/20
-          dark:bg-blue-500/20
-          blur-3xl
+          dark:bg-cyan-500/20
+          blur-[120px]
           animate-blob animation-delay-4000
         "
       />
