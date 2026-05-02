@@ -7,10 +7,18 @@ import { useTheme } from "@/context/ThemeContext";
 import { useState } from 'react';
 import { Menu, X } from "lucide-react";
 import { navbar } from "@/data/content";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Navbar() {
   const { language, setLanguage } = useLanguage();
   const { theme, toggleTheme } = useTheme();
+  const pathname = usePathname();
+  const getSectionLink = (section: string) => {
+    return pathname === "/"
+      ? `${section}`
+      : `/${section}`;
+  };
   const navItems = [
     { label: navbar[language].home, href: "#home" },
     { label: navbar[language].about, href: "#about" },
@@ -72,9 +80,8 @@ export default function Navbar() {
 
       <div className="hidden md:flex items-center gap-8">
         {navItems.map((item) => (
-          <a
-            key={item.href}
-            href={item.href}
+          <Link
+            href={getSectionLink(item.href)}
             className="
               text-sm font-medium
               text-slate-700 dark:text-slate-300
@@ -83,11 +90,12 @@ export default function Navbar() {
             "
           >
             {item.label}
-          </a>
+          </Link>
         ))}
       </div>
+      
       {/* RIGHT - CONTROLS */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 text-slate-700 dark:text-slate-300">
 
         {/* 🌐 LANGUAGE TOGGLE */}
         <button

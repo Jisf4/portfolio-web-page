@@ -422,3 +422,86 @@ export const navbar = {
   },
 };
 
+
+
+export const projects = [
+  {
+    title: {
+      en: "AI Logistics Prediction",
+      es: "Predicción Logística con IA",
+    },
+
+    description: {
+      en: "Machine learning system for logistics prediction and route optimization.",
+      es: "Sistema de machine learning para predicción logística y optimización de rutas.",
+    },
+
+    image: "/projects/project-1.png",
+
+    tech: ["Python", "FastAPI", "GCP", "React"],
+
+    github: "https://github.com/YOUR_USERNAME/project-1",
+
+    featured: true,
+  },
+
+  {
+    title: {
+      en: "Portfolio Website",
+      es: "Portafolio Web",
+    },
+
+    description: {
+      en: "Interactive animated portfolio built with Next.js and Tailwind.",
+      es: "Portafolio interactivo animado construido con Next.js y Tailwind.",
+    },
+
+    image: "/projects/project-2.png",
+
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+
+    github: "https://github.com/YOUR_USERNAME/project-2",
+
+    featured: true,
+  },
+
+  {
+    title: {
+      en: "Data Dashboard",
+      es: "Dashboard de Datos",
+    },
+
+    description: {
+      en: "Interactive dashboard for real-time analytics and visualization.",
+      es: "Dashboard interactivo para analítica y visualización en tiempo real.",
+    },
+
+    image: "/projects/project-3.png",
+
+    tech: ["Python", "Pandas", "Plotly"],
+
+    github: "https://github.com/YOUR_USERNAME/project-3",
+
+    featured: true,
+  },
+
+
+  {
+    title: {
+      en: "Test Project",
+      es: "Proyecto de prueba",
+    },
+
+    description: {
+      en: "Interactive dashboard for real-time analytics and visualization.",
+      es: "Dashboard interactivo para analítica y visualización en tiempo real.",
+    },
+
+    image: "/projects/project-3.png",
+
+    tech: ["Python", "Pandas", "Plotly"],
+
+    github: "https://github.com/YOUR_USERNAME/project-4",
+  },
+  
+];

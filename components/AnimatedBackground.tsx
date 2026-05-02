@@ -21,15 +21,14 @@ export default function AnimatedBackground() {
         />
 
         <div
-        className="
+          className="
             absolute inset-0
-            opacity-[1]
+            opacity-[0.4]
             mix-blend-soft-light
-        "
-        style={{
-            backgroundImage:
-            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Ccircle cx='10' cy='10' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
-        }}
+          "
+          style={{
+            backgroundImage: "url('/textures/noise.png')",
+          }}
         />
 
 
