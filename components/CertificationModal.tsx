@@ -6,17 +6,14 @@ import { useEffect } from "react";
 interface CertificationModalProps {
   isOpen: boolean;
   onClose: () => void;
-
-  image: string;
+  pdf: string;
   title: string;
 }
-
-
 
 export default function CertificationModal({
   isOpen,
   onClose,
-  image,
+  pdf,
   title,
 }: CertificationModalProps) {
     useEffect(() => {
@@ -103,7 +100,6 @@ export default function CertificationModal({
             "
           >
             <div
-              onClick={onClose}
               className="
                 relative
                 
@@ -112,7 +108,7 @@ export default function CertificationModal({
 
                 rounded-3xl
                 overflow-hidden
-
+            
                 bg-slate-900
                 border border-white/10
 
@@ -122,17 +118,19 @@ export default function CertificationModal({
 
 
               {/* CERTIFICATION IMAGE */}
-              <img
-                src={image}
-                alt={title}
+              <iframe
+                
+                src={pdf}
 
                 className="
-                  w-full
-                  h-auto
-                  object-contain
-                  
+                    w-full
+                    h-[85vh]
+
+                    rounded-2xl
                 "
-              />
+
+                title={title}
+                />
 
             {/* CLOSE BUTTON */}
             <button
@@ -140,7 +138,7 @@ export default function CertificationModal({
 
             className="
                 absolute
-                top-4 right-4
+                top-20 left-4
 
                 z-10
 
@@ -148,8 +146,8 @@ export default function CertificationModal({
 
                 rounded-full
 
-                bg-black/50
-                hover:bg-black/70
+                bg-cyan-500/40
+                hover:bg-cyan-500/80
 
                 text-white
                 text-xl

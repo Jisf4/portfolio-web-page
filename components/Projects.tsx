@@ -6,15 +6,28 @@ import { projects } from "@/data/content";
 
 import { useLanguage } from "@/context/LanguageContext";
 
-import Link from "next/link";
+
+import Link from "next/link"; 
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const { language } = useLanguage();
 
+  const container = {
+    hidden: {},
+
+    show: {
+      transition: {
+        staggerChildren: 0.12,
+      },
+    },
+  };
+
+
   return (
     <section
       id="projects"
-      className="py-28 px-6 md:px-12"
+      className="py-28 px-6 md:px-12 border-b border-slate-200 dark:border-slate-800"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -37,12 +50,19 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div
+        <motion.div
+          variants={container}
+
+          initial="hidden"
+
+          whileInView="show"
+
+          viewport={{ once: false }}
           className="
-            mt-20
+
 
             grid
-            grid-cols-1
+
             md:grid-cols-2
             xl:grid-cols-3
             
@@ -65,7 +85,7 @@ export default function Projects() {
   
             />
           ))}
-        </div>
+        </motion.div>
 
         {/* View All Projects Button */}
         <div className="mt-16 text-center">

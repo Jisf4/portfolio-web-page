@@ -129,6 +129,7 @@ export const content = {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
             
         },
@@ -136,36 +137,42 @@ export const content = {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
         }
     ],
 
@@ -327,42 +334,49 @@ export const content = {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
             featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
             image: "/certs/mit.jpeg",
+            pdf: "/certifications/aws.pdf",
         }
     ],
 

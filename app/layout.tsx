@@ -3,6 +3,7 @@
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { ThemeProvider } from "@/context/ThemeContext";
+import CustomCursor from "@/components/CustomCursor";
 
 export default function RootLayout({
   children,
@@ -12,6 +13,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <CustomCursor />
+        
         <ThemeProvider>
           <LanguageProvider>
             {children}

@@ -29,6 +29,7 @@ export default function Certifications() {
   };
   const [selectedCert, setSelectedCert] = useState<{
   image: string;
+  pdf:string;
   title: string;
 } | null>(null);
   return (
@@ -62,6 +63,7 @@ export default function Certifications() {
               onClick={() =>
               setSelectedCert({
                 image: cert.image,
+                pdf: cert.pdf,
                 title: cert.title,
               })
             }
@@ -123,8 +125,7 @@ export default function Certifications() {
       <CertificationModal
         isOpen={!!selectedCert}
         onClose={() => setSelectedCert(null)}
-
-        image={selectedCert?.image || ""}
+        pdf={selectedCert?.pdf || ""}
         title={selectedCert?.title || ""}
       />
 

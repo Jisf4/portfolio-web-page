@@ -32,6 +32,7 @@ export default function CertificationsPage() {
 
   const [selectedCert, setSelectedCert] = useState<{
   image: string;
+  pdf: string;
   title: string;
 } | null>(null);
 
@@ -132,6 +133,7 @@ export default function CertificationsPage() {
                 onClick={() =>
                   setSelectedCert({
                     image: cert.image,
+                    pdf: cert.pdf,
                     title: cert.title,
                   })
                 }
@@ -190,7 +192,7 @@ export default function CertificationsPage() {
           isOpen={!!selectedCert}
           onClose={() => setSelectedCert(null)}
 
-          image={selectedCert?.image || ""}
+          pdf={selectedCert?.pdf || ""}
           title={selectedCert?.title || ""}
         />
       </main>

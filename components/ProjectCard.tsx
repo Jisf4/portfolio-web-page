@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
+import { motion, Variants } from "framer-motion";
 
 interface ProjectCardProps {
   title: string;
@@ -18,8 +19,32 @@ export default function ProjectCard({
   tech,
   github,
 }: ProjectCardProps) {
+  const item: Variants = {
+    hidden: {
+      opacity: 0,
+      y: 40,
+    },
+
+    show: {
+      opacity: 1,
+      y: 20,
+
+      transition: {
+        duration: 0.1,
+        ease: "easeOut",
+      },
+    },
+  };
   return (
-    <div
+    <motion.div
+      variants={item}
+      whileHover={{
+        y: -10,
+        scale: 1.02,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
       className="
         group
         relative
@@ -121,6 +146,6 @@ export default function ProjectCard({
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

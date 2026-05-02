@@ -2,7 +2,7 @@
 
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants} from "framer-motion";
 import {
   Phone,
   ArrowUpRight,
@@ -37,11 +37,25 @@ export default function Footer() {
     }, 2000);
   };
 
+  const item = {
+    hidden: { opacity: 0, y: 40 },
+    show: { opacity: 1, y: 0 },
+  };
+  
+
   return (
     <footer id="contact" className="px-6 md:px-12 py-16">
-      <div
-        className="
-          max-w-7xl
+      <motion.div
+        initial={{ opacity: 0.8, y: 40 }}
+        animate={{ opacity: 1, y: 0}}
+        transition={{ duration: 1.5 }}
+
+        whileHover={{
+          scale: 1.02,
+        }}
+        viewport={{ once: false }}
+          className="
+          max-w-6xl
           mx-auto
 
           rounded-[40px]
@@ -49,12 +63,11 @@ export default function Footer() {
           border border-slate-200 dark:border-slate-800
 
           bg-white/70 dark:bg-slate-900/70
-
           backdrop-blur-xl
 
           shadow-2xl
 
-          p-8 md:p-14
+          p-8 md:p-12
         "
       >
 
@@ -67,8 +80,8 @@ export default function Footer() {
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: false }}
+              transition={{ duration: 0.9 }}
               className="
                 text-5xl
                 md:text-7xl
@@ -536,7 +549,7 @@ export default function Footer() {
 
         </div>
 
-      </div>
+      </motion.div>
     </footer>
   );
 }
