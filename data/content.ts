@@ -169,6 +169,17 @@ export const content = {
         }
     ],
 
+    terminalCard: {
+      name: "Josue",
+
+      role: "Systems Engineer",
+
+      location: "Peru",
+
+      education: "Systems Engineering",
+
+      university: "Your University",
+    },
 
     contact: {
       email: "josuesf4@gmail.com",
@@ -355,6 +366,18 @@ export const content = {
         }
     ],
 
+
+    terminalCard: {
+      name: "Josue",
+
+      role: "Ingeniero de Sistemas",
+
+      location: "Perú",
+
+      education: "Ingeniería de Sistemas",
+
+      university: "Tu Universidad",
+    },
     contact: {
       email: "josuesf4@gmail.com",
       phone: "950 382 960",

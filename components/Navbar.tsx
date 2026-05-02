@@ -19,6 +19,8 @@ export default function Navbar() {
       ? `${section}`
       : `/${section}`;
   };
+
+  
   const navItems = [
     { label: navbar[language].home, href: "#home" },
     { label: navbar[language].about, href: "#about" },
@@ -39,6 +41,7 @@ export default function Navbar() {
      w-full flex justify-between items-center 
      px-6 py-4 bg-white/70 dark:bg-slate-950/70 
      backdrop-blur-md z-40
+     text-slate-900 dark:text-white
      border-b border-slate-200 dark:border-slate-800">
       {mobileMenuOpen && (
   <div
@@ -73,9 +76,9 @@ export default function Navbar() {
 
       <button
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        className="md:hidden"
+        className="md:hidden "
       >
-        {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        {mobileMenuOpen ? <X size={28}/> : <Menu size={28} />}
       </button>
 
       <div className="hidden md:flex items-center gap-8">
