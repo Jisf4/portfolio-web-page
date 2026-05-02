@@ -54,9 +54,9 @@ export default function Navbar() {
           "
         >
           {navItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
+            <Link
+              key={getSectionLink(item.href)}
+              href={getSectionLink(item.href)}
               onClick={() => setMobileMenuOpen(false)}
               className="
                 text-lg font-medium
@@ -66,7 +66,7 @@ export default function Navbar() {
               "
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
       )}
