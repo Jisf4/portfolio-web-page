@@ -4,7 +4,7 @@
 
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
-
+import Image from "next/image";
 export default function Education() {
   const { t } = useLanguage();
 
@@ -38,9 +38,66 @@ export default function Education() {
                         hover:-translate-y-2 hover:shadow-2xl
                         transition-all duration-300"
           >
+            <div className="flex justify-center mb-5">
+              <Image
+                src={edu.logo}
+                alt={edu.institution}
+                width={70}
+                height={70}
+                className="
+                  rounded-2xl
+                  object-contain
+
+                  bg-white/5
+                  p-2
+
+                  border border-white/10
+                "
+              />
+            </div>
             <h3 className="font-semibold text-lg">{edu.degree}</h3>
             <p className="text-gray-500">{edu.institution}</p>
             <p className="text-sm text-gray-400">{edu.period}</p>
+            
+            <div className="mt-5 flex flex-wrap justify-center gap-2">
+              {edu.coursework.map((course, idx) => (
+                <span
+                  key={idx}
+                  className="
+                    px-3 py-1
+                    rounded-full
+                    text-sm
+
+                    bg-cyan-500/10
+                    text-cyan-400
+
+                    border border-cyan-500/20
+                  "
+                >
+                  {course}
+                </span>
+              ))}
+            </div>
+
+            <div className="mt-6 space-y-2 text-left">
+              {edu.achievements.map((achievement, idx) => (
+                <div
+                  key={idx}
+                  className="
+                    flex items-start gap-2
+
+                    text-sm
+                    text-gray-600 dark:text-gray-300
+                  "
+                >
+                  <span className="text-cyan-400 mt-1">
+                    •
+                  </span>
+
+                  <span>{achievement}</span>
+                </div>
+              ))}
+            </div>
           </motion.div>
         ))}
 

@@ -45,13 +45,14 @@ export default function Projects() {
             grid-cols-1
             md:grid-cols-2
             xl:grid-cols-3
-
+            
             gap-8
           "
         >
           {projects
             .filter((project) => project.featured)
             .map((project) => (
+              
             <ProjectCard
               key={project.github}
               title={project.title[language]}
@@ -61,6 +62,7 @@ export default function Projects() {
               image={project.image}
               tech={project.tech}
               github={project.github}
+  
             />
           ))}
         </div>

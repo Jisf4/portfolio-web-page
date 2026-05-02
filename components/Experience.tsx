@@ -34,9 +34,17 @@ export default function Experience() {
             transition={{ delay: index * 0.2 }}
             className="mb-12 ml-6"
           >
-
+            <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: -22 }}
+            
+            >
+              
+            <span className="absolute w-4 h-4 bg-black dark:bg-white 
+            rounded-full -left-2.5 mt-2"></span>
+            </motion.div>
             {/* DOT */}
-            <span className="absolute w-4 h-4 bg-black dark:bg-white rounded-full -left-2.5 mt-2"></span>
+            
 
             {/* CONTENT */}
             <h3 className="text-xl font-semibold">

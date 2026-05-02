@@ -89,12 +89,38 @@ export const content = {
         {
             degree: "MSc Data Science & AI",
             institution: "UTEC",
-            period: "2024 - Present"
+            period: "2024 - Present",
+            logo: "/education/utec.jpg",
+
+            coursework: [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Cloud Computing",
+              "Software Architecture",
+            ],
+
+            achievements: [
+              "Top 10% academic performance",
+              "Research project in logistics prediction",
+            ],
         },
         {
             degree: "MSc Biomedical Engineering",
             institution: "PUCP",
-            period: "2020 - 2022"
+            period: "2020 - 2022",
+            logo: "/education/pucp.png",
+
+            coursework: [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Cloud Computing",
+              "Software Architecture",
+            ],
+
+            achievements: [
+              "Top 10% academic performance",
+              "Research project in logistics prediction",
+            ],
         }
     ],
 
@@ -102,84 +128,47 @@ export const content = {
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
+            
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
         }
     ],
 
-    projects: [
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-    ],
 
     contact: {
       email: "josuesf4@gmail.com",
@@ -286,12 +275,39 @@ export const content = {
         {
             degree: "MSc Data Science & AI",
             institution: "UTEC",
-            period: "2024 - Presente"
+            period: "2024 - Presente",
+            logo: "/education/utec.jpg",
+
+            coursework: [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Cloud Computing",
+              "Software Architecture",
+            ],
+
+            achievements: [
+              "Top 10% academic performance",
+              "Research project in logistics prediction",
+            ],
         },
         {
             degree: "MSc Biomedical Engineering",
             institution: "PUCP",
-            period: "2020 - 2022"
+            period: "2020 - 2022",
+            logo: "/education/pucp.png",
+
+            coursework: [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Cloud Computing",
+              "Software Architecture",
+            ],
+
+            achievements: [
+              "Top 10% academic performance",
+              "Research project in logistics prediction",
+            ],
+            
         }
     ],
 
@@ -299,83 +315,44 @@ export const content = {
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
+            featured: true
         },
         {
             title: "MIT MISTI Data Science & AI",
             org: "MIT",
-            image: "/certs/mit.jpg"
+            image: "/certs/mit.jpeg",
         }
-    ],
-
-    projects: [
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
-      {
-        title: "Tu Proyecto 1",
-        description: "Describe tu proyecto aquí",
-        tech: ["Python", "React"],
-        link: "",
-      },
     ],
 
     contact: {
@@ -436,7 +413,7 @@ export const projects = [
       es: "Sistema de machine learning para predicción logística y optimización de rutas.",
     },
 
-    image: "/projects/project-1.png",
+    image: "/projects/project.jpeg",
 
     tech: ["Python", "FastAPI", "GCP", "React"],
 
@@ -456,7 +433,7 @@ export const projects = [
       es: "Portafolio interactivo animado construido con Next.js y Tailwind.",
     },
 
-    image: "/projects/project-2.png",
+    image: "/projects/project.jpeg",
 
     tech: ["Next.js", "TypeScript", "Tailwind"],
 
@@ -476,7 +453,7 @@ export const projects = [
       es: "Dashboard interactivo para analítica y visualización en tiempo real.",
     },
 
-    image: "/projects/project-3.png",
+    image: "/projects/project.jpeg",
 
     tech: ["Python", "Pandas", "Plotly"],
 
@@ -497,7 +474,7 @@ export const projects = [
       es: "Dashboard interactivo para analítica y visualización en tiempo real.",
     },
 
-    image: "/projects/project-3.png",
+    image: "/projects/project.jpeg",
 
     tech: ["Python", "Pandas", "Plotly"],
 

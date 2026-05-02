@@ -38,7 +38,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left0
      w-full flex justify-between items-center 
      px-6 py-4 bg-white/70 dark:bg-slate-950/70 
-     backdrop-blur-md z-50
+     backdrop-blur-md z-40
      border-b border-slate-200 dark:border-slate-800">
       {mobileMenuOpen && (
   <div
@@ -81,6 +81,7 @@ export default function Navbar() {
       <div className="hidden md:flex items-center gap-8">
         {navItems.map((item) => (
           <Link
+            key={getSectionLink(item.href)}
             href={getSectionLink(item.href)}
             className="
               text-sm font-medium

@@ -26,9 +26,9 @@ export default function ProjectCard({
         overflow-hidden
         rounded-3xl
 
-        bg-white/5
+        bg-white
         dark:bg-white/5
-
+        shadow-lg shadow-slate-200/50 dark:shadow-black/20
         backdrop-blur-xl
 
         border border-white/10
