@@ -1,5 +1,4 @@
-// 🔴 THIS IS THE MAIN FILE YOU WILL EDIT
-// You can change text in Spanish and English here safely
+// Main content
 
 export const content = {
   en: {
@@ -7,7 +6,7 @@ export const content = {
       name: "Josué Sánchez Flores",
       title: "Mechatronics Engineer | Data Science & AI",
       description:
-        "I build data-driven solutions, combining engineering, analytics and artificial intelligence. Test",
+        "I build data-driven solutions, combining engineering, analytics and artificial intelligence.",
     },
 
     about: {
@@ -29,169 +28,238 @@ export const content = {
         description:
           "Data visualization, report automation, and statistical analysis.",
       },
-      {
-        company: "Platinum Corp SRL",
-        role: "Servicio Técnico y Analista de Datos",
-        period: "Dic 2020 - Jun 2025",
-        description:
-          "Análisis estadístico con Python, SQL y Excel. Desarrollo de dashboards en Power BI. Implementación de soluciones con IA.",
-      },
-      {
-        company: "Universidad Continental",
-        role: "Ingeniero TI",
-        period: "Mar 2018 - Jul 2019",
-        description:
-          "Visualización de datos, automatización de reportes y análisis estadístico.",
-      },
     ],
 
     skills: [
-        {
-            name: "Python",
-            icon: "/icons/python.png"
-        },
-        {
-            name: "SQL",
-            icon: "/icons/sql.png"
-        },
-        {
-            name: "Docker",
-            icon: "/icons/docker.png"
-        },
-        {
-            name: "Python",
-            icon: "/icons/python.png"
-        },
-        {
-            name: "SQL",
-            icon: "/icons/sql.png"
-        },
-        {
-            name: "Docker",
-            icon: "/icons/docker.png"
-        },
-        {
-            name: "Python",
-            icon: "/icons/python.png"
-        },
-        {
-            name: "SQL",
-            icon: "/icons/sql.png"
-        },
-        {
-            name: "Docker",
-            icon: "/icons/docker.png"
-        },
+      {
+        name: "Python",
+        icon: "/icons/python.png",
+      },
+      {
+        name: "Pandas",
+        icon: "/icons/pandas-icon.png",
+      },
+      {
+        name: "Scikit-learn",
+        icon: "/icons/scikit.png",
+      },
+      {
+        name: "TensorFlow",
+        icon: "/icons/tensorflow.png",
+      },
+      {
+        name: "PyTorch",
+        icon: "/icons/pytorch-icon.png",
+      },
+      {
+        name: "Seaborn",
+        icon: "/icons/seaborn.png",
+      },
+      {
+        name: "OpenCV",
+        icon: "/icons/opencv.png",
+      },
+      {
+        name: "HugginFace",
+        icon: "/icons/hugging-face-icon.png",
+      },
+      {
+        name: "ComfyUI",
+        icon: "/icons/comfyui-icon.png",
+      },
+      {
+        name: "n8n",
+        icon: "/icons/n8n-icon.png",
+      },
+      {
+        name: "SQL",
+        icon: "/icons/postgresql.png",
+      },
+      {
+        name: "C++",
+        icon: "/icons/c-plusplus.png",
+      },
+      {
+        name: "Google Cloud Platform",
+        icon: "/icons/google-cloud-platform.png",
+      },
+      {
+        name: "Amazon Web Services",
+        icon: "/icons/aws.png",
+      },
+      {
+        name: "Docker",
+        icon: "/icons/docker.png",
+      },
+      {
+        name: "PowerBi",
+        icon: "/icons/microsoft-power-bi.png",
+      },
+      {
+        name: "Looker Studio",
+        icon: "/icons/looker-icon.png",
+      },
+      {
+        name: "Linux",
+        icon: "/icons/linux-tux.png",
+      },
+      {
+        name: "Next.js",
+        icon: "/icons/nextjs.png",
+      },
+      {
+        name: "Node.js",
+        icon: "/icons/nodejs-icon.png",
+      },
+      {
+        name: "React",
+        icon: "/icons/react.png",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "/icons/tailwindcss-icon.png",
+      },
+      {
+        name: "TypeScript",
+        icon: "/icons/typescript-icon.png",
+      },
+      {
+        name: "HTML",
+        icon: "/icons/html-5.png",
+      },
+      {
+        name: "CSS",
+        icon: "/icons/css-3.png",
+      },
+      {
+        name: "npm",
+        icon: "/icons/npm.png",
+      },
+      {
+        name: "Git",
+        icon: "/icons/git.png",
+      },
+      {
+        name: "Github",
+        icon: "/icons/github-icon.png",
+      },
+      {
+        name: "Vercel",
+        icon: "/icons/vercel-icon.png",
+      },
+      {
+        name: "VSCode",
+        icon: "/icons/visual-studio-code.png",
+      },
+
     ],
 
-
     education: [
-        {
-            degree: "MSc Data Science & AI",
-            institution: "UTEC",
-            period: "2024 - Present",
-            logo: "/education/utec.jpg",
+      {
+        degree: "MSc Data Science & AI",
+        institution: "UTEC",
+        period: "2024 - Present",
+        logo: "/education/utec.jpg",
 
-            coursework: [
-              "Artificial Intelligence",
-              "Machine Learning",
-              "Cloud Computing",
-              "Software Architecture",
-            ],
+        coursework: [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Cloud Computing",
+          "Software Architecture",
+        ],
 
-            achievements: [
-              "Top 10% academic performance",
-              "Research project in logistics prediction",
-            ],
-        },
-        {
-            degree: "MSc Biomedical Engineering",
-            institution: "PUCP",
-            period: "2020 - 2022",
-            logo: "/education/pucp.png",
+        achievements: [
+          "Top 10% academic performance",
+          "Research project in logistics prediction",
+        ],
+      },
+      {
+        degree: "MSc Biomedical Engineering",
+        institution: "PUCP",
+        period: "2020 - 2022",
+        logo: "/education/pucp.png",
 
-            coursework: [
-              "Artificial Intelligence",
-              "Machine Learning",
-              "Cloud Computing",
-              "Software Architecture",
-            ],
+        coursework: [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Cloud Computing",
+          "Software Architecture",
+        ],
 
-            achievements: [
-              "Top 10% academic performance",
-              "Research project in logistics prediction",
-            ],
-        }
+        achievements: [
+          "Top 10% academic performance",
+          "Research project in logistics prediction",
+        ],
+      },
     ],
 
     certifications: [
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-            
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-        }
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+      },
     ],
 
     terminalCard: {
-      name: "Josue",
+      name: "name: \"Josué Sanchez Flores\",",
 
-      role: "Systems Engineer",
+      role: "role: \"AI and Data Science Engineer\",",
 
-      location: "Peru",
+      location: "location: \"Peru\",",
 
-      education: "Systems Engineering",
+      education: "education: \"Data Science and AI Master's Student\",",
 
-      university: "Your University",
+      university: "university: \"UTEC\",",
+
+      const: "engineer",
+
+      build: "engineer.build();"
     },
 
-    contact: {
-      email: "josuesf4@gmail.com",
-      phone: "950 382 960",
-    },
     titles: {
       about: "About",
       skills: "Skills",
@@ -203,7 +271,7 @@ export const content = {
     },
     buttons: {
       projects: "View Projects",
-      cv: "Download CV"
+      cv: "Download CV",
     },
   },
 
@@ -251,151 +319,236 @@ export const content = {
     ],
 
     skills: [
-        {
-            name: "Python",
-            icon: "/icons/python.png"
-        },
-        {
-            name: "SQL",
-            icon: "/icons/sql.png"
-        },
-        {
-            name: "Docker",
-            icon: "/icons/docker.png"
-        },
-        {
-            name: "Python",
-            icon: "/icons/python.png"
-        },
-        {
-            name: "SQL",
-            icon: "/icons/sql.png"
-        },
-        {
-            name: "Docker",
-            icon: "/icons/docker.png"
-        },
-        {
-            name: "Python",
-            icon: "/icons/python.png"
-        },
-        {
-            name: "SQL",
-            icon: "/icons/sql.png"
-        },
-        {
-            name: "Docker",
-            icon: "/icons/docker.png"
-        },
+      {
+        name: "Python",
+        icon: "/icons/python.png",
+      },
+      {
+        name: "Pandas",
+        icon: "/icons/pandas-icon.png",
+      },
+      {
+        name: "Scikit-learn",
+        icon: "/icons/scikit.png",
+      },
+      {
+        name: "TensorFlow",
+        icon: "/icons/tensorflow.png",
+      },
+      {
+        name: "PyTorch",
+        icon: "/icons/pytorch-icon.png",
+      },
+      {
+        name: "Seaborn",
+        icon: "/icons/seaborn.png",
+      },
+      {
+        name: "OpenCV",
+        icon: "/icons/opencv.png",
+      },
+      {
+        name: "HugginFace",
+        icon: "/icons/hugging-face-icon.png",
+      },
+      {
+        name: "ComfyUI",
+        icon: "/icons/comfyui-icon.png",
+      },
+      {
+        name: "n8n",
+        icon: "/icons/n8n-icon.png",
+      },
+      {
+        name: "SQL",
+        icon: "/icons/postgresql.png",
+      },
+      {
+        name: "C++",
+        icon: "/icons/c-plusplus.png",
+      },
+      {
+        name: "Google Cloud Platform",
+        icon: "/icons/google-cloud-platform.png",
+      },
+      {
+        name: "Amazon Web Services",
+        icon: "/icons/aws.png",
+      },
+      {
+        name: "Docker",
+        icon: "/icons/docker.png",
+      },
+      {
+        name: "PowerBi",
+        icon: "/icons/microsoft-power-bi.png",
+      },
+      {
+        name: "Looker Studio",
+        icon: "/icons/looker-icon.png",
+      },
+      {
+        name: "Linux",
+        icon: "/icons/linux-tux.png",
+      },
+      {
+        name: "Next.js",
+        icon: "/icons/nextjs.png",
+      },
+      {
+        name: "Node.js",
+        icon: "/icons/nodejs-icon.png",
+      },
+      {
+        name: "React",
+        icon: "/icons/react.png",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "/icons/tailwindcss-icon.png",
+      },
+      {
+        name: "TypeScript",
+        icon: "/icons/typescript-icon.png",
+      },
+      {
+        name: "HTML",
+        icon: "/icons/html-5.png",
+      },
+      {
+        name: "CSS",
+        icon: "/icons/css-3.png",
+      },
+      {
+        name: "npm",
+        icon: "/icons/npm.png",
+      },
+      {
+        name: "Git",
+        icon: "/icons/git.png",
+      },
+      {
+        name: "Github",
+        icon: "/icons/github-icon.png",
+      },
+      {
+        name: "Vercel",
+        icon: "/icons/vercel-icon.png",
+      },
+      {
+        name: "VSCode",
+        icon: "/icons/visual-studio-code.png",
+      },
+
     ],
 
     education: [
-        {
-            degree: "MSc Data Science & AI",
-            institution: "UTEC",
-            period: "2024 - Presente",
-            logo: "/education/utec.jpg",
+      {
+        degree: "MSc Data Science & AI",
+        institution: "UTEC",
+        period: "2024 - Presente",
+        logo: "/education/utec.jpg",
 
-            coursework: [
-              "Artificial Intelligence",
-              "Machine Learning",
-              "Cloud Computing",
-              "Software Architecture",
-            ],
+        coursework: [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Cloud Computing",
+          "Software Architecture",
+        ],
 
-            achievements: [
-              "Top 10% academic performance",
-              "Research project in logistics prediction",
-            ],
-        },
-        {
-            degree: "MSc Biomedical Engineering",
-            institution: "PUCP",
-            period: "2020 - 2022",
-            logo: "/education/pucp.png",
+        achievements: [
+          "Top 10% academic performance",
+          "Research project in logistics prediction",
+        ],
+      },
+      {
+        degree: "MSc Biomedical Engineering",
+        institution: "PUCP",
+        period: "2020 - 2022",
+        logo: "/education/pucp.png",
 
-            coursework: [
-              "Artificial Intelligence",
-              "Machine Learning",
-              "Cloud Computing",
-              "Software Architecture",
-            ],
+        coursework: [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Cloud Computing",
+          "Software Architecture",
+        ],
 
-            achievements: [
-              "Top 10% academic performance",
-              "Research project in logistics prediction",
-            ],
-            
-        }
+        achievements: [
+          "Top 10% academic performance",
+          "Research project in logistics prediction",
+        ],
+      },
     ],
 
     certifications: [
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-            featured: true
-        },
-        {
-            title: "MIT MISTI Data Science & AI",
-            org: "MIT",
-            image: "/certs/mit.jpeg",
-            pdf: "/certifications/aws.pdf",
-        }
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+        featured: true,
+      },
+      {
+        title: "MIT MISTI Data Science & AI",
+        org: "MIT",
+        image: "/certs/mit.jpeg",
+        pdf: "/certifications/aws.pdf",
+      },
     ],
 
-
     terminalCard: {
-      name: "Josue",
+      name: "nombre: \"Josué Sánchez Flores\",",
 
-      role: "Ingeniero de Sistemas",
+      role: "rol: \"Ingeniero de ciencia de datos e IA\",",
 
-      location: "Perú",
+      location: "localización: \"Perú\",",
 
-      education: "Ingeniería de Sistemas",
+      education: "educación: \"Maestrando en ciencia de datos e ingeniería\",",
 
-      university: "Tu Universidad",
+      university: "universidad: \"UTEC\",",
+
+      const: "ingeniero",
+      
+      build: "ingeniero.build();"
     },
-    contact: {
-      email: "josuesf4@gmail.com",
-      phone: "950 382 960",
-    },
+
+
     titles: {
       about: "Sobre mí",
       skills: "Habilidades",
@@ -407,7 +560,7 @@ export const content = {
     },
     buttons: {
       projects: "Ver Proyectos",
-      cv: "Descargar CV"
+      cv: "Descargar CV",
     },
   },
 };
@@ -417,10 +570,10 @@ export const navbar = {
     home: "Home",
     about: "About",
     skills: "Skills",
+    certifications: "Certifications",
     projects: "Projects",
     experience: "Experience",
     education: "Education",
-    certifications: "Certifications",
     contact: "Contact",
   },
 
@@ -428,15 +581,13 @@ export const navbar = {
     home: "Inicio",
     about: "Sobre mí",
     skills: "Habilidades",
+    certifications: "Certificaciones",
     projects: "Proyectos",
     experience: "Experiencia",
     education: "Educación",
-    certifications: "Certificaciones",
     contact: "Contacto",
   },
 };
-
-
 
 export const projects = [
   {
@@ -499,7 +650,6 @@ export const projects = [
     featured: true,
   },
 
-
   {
     title: {
       en: "Test Project",
@@ -517,5 +667,4 @@ export const projects = [
 
     github: "https://github.com/YOUR_USERNAME/project-4",
   },
-  
 ];

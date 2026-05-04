@@ -14,11 +14,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <CustomCursor />
-        
         <ThemeProvider>
-          <LanguageProvider>
-            {children}
-            </LanguageProvider>
+          <LanguageProvider>{children}</LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

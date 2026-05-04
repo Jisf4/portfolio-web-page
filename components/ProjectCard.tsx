@@ -85,9 +85,7 @@ export default function ProjectCard({
       {/* Content */}
       <div className="p-6">
         {/* Title */}
-        <h3 className="text-2xl font-semibold">
-          {title}
-        </h3>
+        <h3 className="text-2xl font-semibold">{title}</h3>
 
         {/* Description */}
         <p

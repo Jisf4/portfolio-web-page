@@ -1,19 +1,9 @@
-
-
 "use client";
 
-import { motion, Variants} from "framer-motion";
-import {
-  Phone,
-  ArrowUpRight,
-  Copy,
-  Check,
-} from "lucide-react";
+import { motion, Variants } from "framer-motion";
+import { Phone, ArrowUpRight, Copy, Check } from "lucide-react";
 
-import {
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
@@ -41,20 +31,18 @@ export default function Footer() {
     hidden: { opacity: 0, y: 40 },
     show: { opacity: 1, y: 0 },
   };
-  
 
   return (
     <footer id="contact" className="px-6 md:px-12 py-16">
       <motion.div
         initial={{ opacity: 0.8, y: 40 }}
-        animate={{ opacity: 1, y: 0}}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
-
         whileHover={{
           scale: 1.02,
         }}
         viewport={{ once: false }}
-          className="
+        className="
           max-w-6xl
           mx-auto
 
@@ -70,13 +58,10 @@ export default function Footer() {
           p-8 md:p-12
         "
       >
-
         {/* TOP SECTION */}
         <div className="flex flex-col lg:flex-row justify-between gap-12">
-
           {/* LEFT */}
           <div className="max-w-2xl">
-
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -92,9 +77,7 @@ export default function Footer() {
               "
             >
               <span className="block">
-                {language === "en"
-                  ? "BUILT"
-                  : "CREADO"}
+                {language === "en" ? "BUILT" : "CREADO"}
               </span>
 
               <span
@@ -108,9 +91,7 @@ export default function Footer() {
                   text-transparent
                 "
               >
-                {language === "en"
-                  ? "WITH CARE"
-                  : "CON PASIÓN"}
+                {language === "en" ? "WITH CARE" : "CON PASIÓN"}
               </span>
             </motion.h2>
 
@@ -134,7 +115,6 @@ export default function Footer() {
           {/* DECORATION */}
           <div className="hidden lg:flex items-center justify-center">
             <div className="relative w-52 h-52 opacity-40">
-
               <div className="absolute inset-0 rounded-full border border-cyan-400/40 animate-pulse" />
 
               <div className="absolute inset-4 rounded-full border border-blue-400/40" />
@@ -142,7 +122,6 @@ export default function Footer() {
               <div className="absolute inset-8 rounded-full border border-pink-400/40" />
 
               <div className="absolute inset-12 rounded-full border border-cyan-300/40" />
-
             </div>
           </div>
         </div>
@@ -152,7 +131,6 @@ export default function Footer() {
 
         {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
-
           {/* REACH OUT */}
           <div>
             <h3
@@ -167,9 +145,7 @@ export default function Footer() {
                 mb-6
               "
             >
-              {language === "en"
-                ? "Reach Out"
-                : "Contacto"}
+              {language === "en" ? "Reach Out" : "Contacto"}
             </h3>
 
             {/* EMAIL */}
@@ -188,10 +164,7 @@ export default function Footer() {
                 mb-4
               "
             >
-              <a
-                href={`mailto:${email}`}
-                className="font-semibold break-all"
-              >
+              <a href={`mailto:${email}`} className="font-semibold break-all">
                 {email}
               </a>
 
@@ -211,11 +184,7 @@ export default function Footer() {
                   transition-all
                 "
               >
-                {copied ? (
-                  <Check size={18} />
-                ) : (
-                  <Copy size={18} />
-                )}
+                {copied ? <Check size={18} /> : <Copy size={18} />}
               </button>
             </div>
 
@@ -237,14 +206,11 @@ export default function Footer() {
             >
               <Phone size={18} />
 
-              <span>
-                +51 948 950 173
-              </span>
+              <span>+51 948 950 173</span>
             </a>
 
             {/* SOCIALS */}
             <div className="flex gap-4">
-
               <a
                 href="https://github.com/youruser"
                 target="_blank"
@@ -307,7 +273,6 @@ export default function Footer() {
               >
                 <SiLeetcode size={22} />
               </a>
-
             </div>
           </div>
 
@@ -325,54 +290,34 @@ export default function Footer() {
                 mb-6
               "
             >
-              {language === "en"
-                ? "Explore"
-                : "Explorar"}
+              {language === "en" ? "Explore" : "Explorar"}
             </h3>
 
             <div className="flex flex-wrap gap-4">
-
               {[
                 {
-                  label:
-                    language === "en"
-                      ? "About"
-                      : "Sobre mí",
+                  label: language === "en" ? "About" : "Sobre mí",
                   href: "#about",
                 },
                 {
-                  label:
-                    language === "en"
-                      ? "Skills"
-                      : "Habilidades",
+                  label: language === "en" ? "Skills" : "Habilidades",
                   href: "#skills",
                 },
                 {
-                  label:
-                    language === "en"
-                      ? "Projects"
-                      : "Proyectos",
+                  label: language === "en" ? "Projects" : "Proyectos",
                   href: "#projects",
                 },
                 {
                   label:
-                    language === "en"
-                      ? "Certifications"
-                      : "Certificaciones",
+                    language === "en" ? "Certifications" : "Certificaciones",
                   href: "#certifications",
                 },
                 {
-                  label:
-                    language === "en"
-                      ? "Education"
-                      : "Educación",
+                  label: language === "en" ? "Education" : "Educación",
                   href: "#education",
                 },
                 {
-                  label:
-                    language === "en"
-                      ? "Contact"
-                      : "Contacto",
+                  label: language === "en" ? "Contact" : "Contacto",
                   href: "#contact",
                 },
               ].map((item, index) => (
@@ -399,7 +344,6 @@ export default function Footer() {
                   {item.label}
                 </a>
               ))}
-
             </div>
           </div>
 
@@ -417,13 +361,10 @@ export default function Footer() {
                 mb-6
               "
             >
-              {language === "en"
-                ? "Quick Actions"
-                : "Acciones rápidas"}
+              {language === "en" ? "Quick Actions" : "Acciones rápidas"}
             </h3>
 
             <div className="space-y-4">
-
               <Link
                 href="/resume.pdf"
                 target="_blank"
@@ -447,9 +388,7 @@ export default function Footer() {
                 "
               >
                 <span>
-                  {language === "en"
-                    ? "Download Resume"
-                    : "Descargar CV"}
+                  {language === "en" ? "Download Resume" : "Descargar CV"}
                 </span>
 
                 <ArrowUpRight size={18} />
@@ -485,7 +424,6 @@ export default function Footer() {
                 <ArrowUpRight size={18} />
               </Link>
 
-
               <Link
                 href="/projects"
                 className="
@@ -508,21 +446,17 @@ export default function Footer() {
                 "
               >
                 <span>
-                  {language === "en"
-                    ? "View Projects"
-                    : "Ver Proyectos"}
+                  {language === "en" ? "View Projects" : "Ver Proyectos"}
                 </span>
 
                 <ArrowUpRight size={18} />
               </Link>
-
             </div>
           </div>
         </div>
 
         {/* BOTTOM */}
         <div className="mt-14 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between gap-4">
-
           <p className="text-slate-500 text-sm">
             © 2026 Josue. All rights reserved.
           </p>
@@ -540,15 +474,11 @@ export default function Footer() {
               transition-colors
             "
           >
-            {language === "en"
-              ? "Back to top"
-              : "Volver arriba"}
+            {language === "en" ? "Back to top" : "Volver arriba"}
 
             <ArrowUpRight size={16} />
           </a>
-
         </div>
-
       </motion.div>
     </footer>
   );

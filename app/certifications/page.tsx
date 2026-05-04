@@ -31,10 +31,10 @@ export default function CertificationsPage() {
   };
 
   const [selectedCert, setSelectedCert] = useState<{
-  image: string;
-  pdf: string;
-  title: string;
-} | null>(null);
+    image: string;
+    pdf: string;
+    title: string;
+  } | null>(null);
 
   return (
     <>
@@ -57,7 +57,6 @@ export default function CertificationsPage() {
         "
       >
         <div className="max-w-6xl mx-auto">
-
           {/* TITLE */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -175,23 +174,17 @@ export default function CertificationsPage() {
                 />
 
                 <div className="p-4">
-                  <h3 className="font-semibold">
-                    {cert.title}
-                  </h3>
+                  <h3 className="font-semibold">{cert.title}</h3>
 
-                  <p className="text-sm text-gray-500">
-                    {cert.org}
-                  </p>
+                  <p className="text-sm text-gray-500">{cert.org}</p>
                 </div>
               </motion.div>
             ))}
           </motion.div>
-
         </div>
         <CertificationModal
           isOpen={!!selectedCert}
           onClose={() => setSelectedCert(null)}
-
           pdf={selectedCert?.pdf || ""}
           title={selectedCert?.title || ""}
         />

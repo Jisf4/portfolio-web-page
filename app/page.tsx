@@ -11,19 +11,20 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Home() {
   return (
-    <main className="bg-slate-50 overflow-x-hidden dark:bg-slate-950 text-slate-900 
-    dark:text-slate-100 min-h-screen transition-colors duration-300">
+    <main
+      className="bg-slate-50 overflow-x-hidden dark:bg-slate-950 text-slate-900 
+    dark:text-slate-100 min-h-screen transition-colors duration-300"
+    >
       <AnimatedBackground />
       <Navbar />
       <Hero />
       <About />
       <Skills />
+      <Certifications />
       <Projects />
       <Experience />
       <Education />
-      <Certifications />
       <Footer />
-
     </main>
   );
 }

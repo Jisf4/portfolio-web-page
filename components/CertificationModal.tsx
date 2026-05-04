@@ -16,46 +16,36 @@ export default function CertificationModal({
   pdf,
   title,
 }: CertificationModalProps) {
-    useEffect(() => {
+  useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
-        if (event.key === "Escape") {
+      if (event.key === "Escape") {
         onClose();
-        }
+      }
     };
 
     if (isOpen) {
-        document.body.style.overflow = "hidden";
+      document.body.style.overflow = "hidden";
 
-        window.addEventListener(
-        "keydown",
-        handleEsc
-        );
+      window.addEventListener("keydown", handleEsc);
     } else {
-        document.body.style.overflow = "auto";
+      document.body.style.overflow = "auto";
     }
 
     return () => {
-        document.body.style.overflow = "auto";
+      document.body.style.overflow = "auto";
 
-        window.removeEventListener(
-        "keydown",
-        handleEsc
-        );
+      window.removeEventListener("keydown", handleEsc);
     };
-    }, [isOpen, onClose]);
+  }, [isOpen, onClose]);
   return (
     <AnimatePresence>
       {isOpen && (
         <>
-        
-            
           {/* DARK OVERLAY */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            
-
             className="
               fixed inset-0
               z-40
@@ -72,23 +62,19 @@ export default function CertificationModal({
               scale: 0.9,
               y: 20,
             }}
-
             animate={{
               opacity: 1,
               scale: 1,
               y: 0,
             }}
-
             exit={{
               opacity: 0,
               scale: 0.9,
               y: 20,
             }}
-
             transition={{
               duration: 0.3,
             }}
-
             className="
               fixed inset-0
               z-40
@@ -115,28 +101,22 @@ export default function CertificationModal({
                 shadow-2xl
               "
             >
-
-
               {/* CERTIFICATION IMAGE */}
               <iframe
-                
                 src={pdf}
-
                 className="
                     w-full
                     h-[85vh]
 
                     rounded-2xl
                 "
-
                 title={title}
-                />
+              />
 
-            {/* CLOSE BUTTON */}
-            <button
-            onClick={onClose}
-
-            className="
+              {/* CLOSE BUTTON */}
+              <button
+                onClick={onClose}
+                className="
                 absolute
                 top-20 left-4
 
@@ -154,18 +134,13 @@ export default function CertificationModal({
 
                 transition-all duration-300
             "
-            >
-            ✕
-            </button>
+              >
+                ✕
+              </button>
             </div>
-            
-
           </motion.div>
-
-          
         </>
       )}
-      
     </AnimatePresence>
   );
 }

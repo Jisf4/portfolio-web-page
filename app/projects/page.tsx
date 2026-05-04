@@ -15,10 +15,10 @@ export default function ProjectsPage() {
 
   return (
     <>
-    <AnimatedBackground />
+      <AnimatedBackground />
 
-    <Navbar />
-    <main
+      <Navbar />
+      <main
         className="
         
         min-h-screen
@@ -32,31 +32,28 @@ export default function ProjectsPage() {
         px-6 md:px-12
         py-28
         "
-    >
-      <div className="max-w-7xl mx-auto">
+      >
+        <div className="max-w-7xl mx-auto">
+          {/* Title */}
+          <div className="text-center">
+            <h1 className="text-5xl md:text-6xl font-bold">
+              {language === "en" ? "All Projects" : "Todos los Proyectos"}
+            </h1>
 
-        {/* Title */}
-        <div className="text-center">
-          <h1 className="text-5xl md:text-6xl font-bold">
-            {language === "en"
-              ? "All Projects"
-              : "Todos los Proyectos"}
-          </h1>
-
-          <div
-            className="
+            <div
+              className="
               mt-6
               w-24 h-[2px]
               bg-cyan-500
               mx-auto
             "
-          />
-        </div>
+            />
+          </div>
 
-        <div className="mt-10 flex justify-center">
-        <Link
-            href="/#projects"
-            className="
+          <div className="mt-10 flex justify-center">
+            <Link
+              href="/#projects"
+              className="
             inline-flex items-center
 
             px-8 py-4
@@ -73,16 +70,16 @@ export default function ProjectsPage() {
             transition-all duration-300
             hover:-translate-y-1
             "
-        >
-            {language === "en"
-            ? "Back to Main Page"
-            : "Volver a la Página Principal"}
-        </Link>
-        </div>
+            >
+              {language === "en"
+                ? "Back to Main Page"
+                : "Volver a la Página Principal"}
+            </Link>
+          </div>
 
-        {/* Projects Grid */}
-        <div
-          className="
+          {/* Projects Grid */}
+          <div
+            className="
             mt-20
 
             grid
@@ -92,23 +89,20 @@ export default function ProjectsPage() {
 
             gap-8
           "
-        >
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.github}
-              title={project.title[language]}
-              description={
-                project.description[language]
-              }
-              image={project.image}
-              tech={project.tech}
-              github={project.github}
-            />
-          ))}
+          >
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.github}
+                title={project.title[language]}
+                description={project.description[language]}
+                image={project.image}
+                tech={project.tech}
+                github={project.github}
+              />
+            ))}
+          </div>
         </div>
-
-      </div>
-    </main>
+      </main>
     </>
   );
 }

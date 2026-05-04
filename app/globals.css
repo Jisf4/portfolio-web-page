@@ -3,10 +3,9 @@
 /* ✅ ENABLE CLASS-BASED DARK MODE */
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 html {
   scroll-behavior: smooth;
-};
+}
 
 @keyframes blob {
   0% {
@@ -24,7 +23,7 @@ html {
   100% {
     transform: translate(0px, 0px) scale(1);
   }
-};
+}
 
 .animate-blob {
   animation: blob 9s infinite ease-in-out;

@@ -1,4 +1,4 @@
-// 🎓 EDUCATION SECTION
+// Education section
 
 "use client";
 
@@ -9,42 +9,43 @@ export default function Education() {
   const { t } = useLanguage();
 
   return (
-    <section id="education" className="py-28 px-6 md:px-12 border-b border-slate-200 dark:border-slate-800">
+    <section
+      id="education"
+      className="py-28 px-6 md:px-12 border-b border-slate-200 dark:border-slate-800"
+    >
       <div className="max-w-5xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="text-4xl md:text-5xl tracking-tight font-bold mb-12 text-center"
+        >
+          {t.titles.education}
+        </motion.h2>
 
-      <motion.h2
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        className="text-4xl md:text-5xl tracking-tight font-bold mb-12 text-center"
-      >
-        {t.titles.education}
-      </motion.h2>
-
-      <div className="space-y-8">
-
-        {t.education.map((edu, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.2 }}
-            className="p-4 rounded-2xl text-center
+        <div className="space-y-8">
+          {t.education.map((edu, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.2 }}
+              className="p-4 rounded-2xl text-center
                         bg-white/80 dark:bg-slate-900/80
                         backdrop-blur-md
                         border border-slate-200 dark:border-slate-800
                         shadow-lg shadow-slate-200/50 dark:shadow-black/20
                         hover:-translate-y-2 hover:shadow-2xl
                         transition-all duration-300"
-          >
-            <div className="flex justify-center mb-5">
-              <Image
-                src={edu.logo}
-                alt={edu.institution}
-                width={70}
-                height={70}
-                className="
+            >
+              <div className="flex justify-center mb-5">
+                <Image
+                  src={edu.logo}
+                  alt={edu.institution}
+                  width={70}
+                  height={70}
+                  className="
                   rounded-2xl
                   object-contain
 
@@ -53,17 +54,17 @@ export default function Education() {
 
                   border border-white/10
                 "
-              />
-            </div>
-            <h3 className="font-semibold text-lg">{edu.degree}</h3>
-            <p className="text-gray-500">{edu.institution}</p>
-            <p className="text-sm text-gray-400">{edu.period}</p>
-            
-            <div className="mt-5 flex flex-wrap justify-center gap-2">
-              {edu.coursework.map((course, idx) => (
-                <span
-                  key={idx}
-                  className="
+                />
+              </div>
+              <h3 className="font-semibold text-lg">{edu.degree}</h3>
+              <p className="text-gray-500">{edu.institution}</p>
+              <p className="text-sm text-gray-400">{edu.period}</p>
+
+              <div className="mt-5 flex flex-wrap justify-center gap-2">
+                {edu.coursework.map((course, idx) => (
+                  <span
+                    key={idx}
+                    className="
                     px-3 py-1
                     rounded-full
                     text-sm
@@ -73,36 +74,33 @@ export default function Education() {
 
                     border border-cyan-500/20
                   "
-                >
-                  {course}
-                </span>
-              ))}
-            </div>
+                  >
+                    {course}
+                  </span>
+                ))}
+              </div>
 
-            <div className="mt-6 space-y-2 text-left">
-              {edu.achievements.map((achievement, idx) => (
-                <div
-                  key={idx}
-                  className="
+              <div className="mt-6 space-y-2 text-left">
+                {edu.achievements.map((achievement, idx) => (
+                  <div
+                    key={idx}
+                    className="
                     flex items-start gap-2
 
                     text-sm
                     text-gray-600 dark:text-gray-300
                   "
-                >
-                  <span className="text-cyan-400 mt-1">
-                    •
-                  </span>
+                  >
+                    <span className="text-cyan-400 mt-1">•</span>
 
-                  <span>{achievement}</span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        ))}
-
+                    <span>{achievement}</span>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
-     </div>
     </section>
   );
 }

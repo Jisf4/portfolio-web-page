@@ -1,16 +1,11 @@
 "use client";
 export default function AnimatedBackground() {
   return (
-    
     <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
-
-
-
-
-        <div
+      <div
         className="absolute inset-0"
         style={{
-            background: `
+          background: `
             radial-gradient(
                 circle at center,
                 rgba(6,182,212,0.15),
@@ -18,21 +13,19 @@ export default function AnimatedBackground() {
             )
             `,
         }}
-        />
+      />
 
-        <div
-          className="
+      <div
+        className="
             absolute inset-0
             opacity-[0.4]
             mix-blend-soft-light
           "
-          style={{
-            backgroundImage: "url('/textures/noise.png')",
-          }}
-        />
+        style={{
+          backgroundImage: "url('/textures/noise.png')",
+        }}
+      />
 
-
-      
       {/* Cyan Blob */}
       <div
         className="

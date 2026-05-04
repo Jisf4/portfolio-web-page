@@ -1,10 +1,10 @@
-// 🧭 NAVBAR WITH TOGGLES
+// NavBar
 
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
 import { useTheme } from "@/context/ThemeContext";
-import { useState } from 'react';
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navbar } from "@/data/content";
 import { usePathname } from "next/navigation";
@@ -15,36 +15,32 @@ export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
   const pathname = usePathname();
   const getSectionLink = (section: string) => {
-    return pathname === "/"
-      ? `${section}`
-      : `/${section}`;
+    return pathname === "/" ? `${section}` : `/${section}`;
   };
 
-  
   const navItems = [
     { label: navbar[language].home, href: "#home" },
     { label: navbar[language].about, href: "#about" },
     { label: navbar[language].skills, href: "#skills" },
+    { label: navbar[language].certifications, href: "#certifications" },
     { label: navbar[language].projects, href: "#projects" },
     { label: navbar[language].experience, href: "#experience" },
     { label: navbar[language].education, href: "#education" },
-    {
-      label: navbar[language].certifications,
-      href: "#certifications",
-    },
     { label: navbar[language].contact, href: "#contact" },
   ];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left0
+    <nav
+      className="fixed top-0 left0
      w-full flex justify-between items-center 
      px-6 py-4 bg-white/70 dark:bg-slate-950/70 
      backdrop-blur-md z-40
      text-slate-900 dark:text-white
-     border-b border-slate-200 dark:border-slate-800">
+     border-b border-slate-200 dark:border-slate-800"
+    >
       {mobileMenuOpen && (
-  <div
+        <div
           className="
             md:hidden
             fixed top-16 left-0 w-full
@@ -78,7 +74,7 @@ export default function Navbar() {
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         className="md:hidden "
       >
-        {mobileMenuOpen ? <X size={28}/> : <Menu size={28} />}
+        {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
       <div className="hidden md:flex items-center gap-8">
@@ -97,10 +93,9 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      
+
       {/* RIGHT - CONTROLS */}
       <div className="flex items-center gap-4 text-slate-700 dark:text-slate-300">
-
         {/* 🌐 LANGUAGE TOGGLE */}
         <button
           onClick={() => setLanguage(language === "en" ? "es" : "en")}
@@ -110,14 +105,9 @@ export default function Navbar() {
         </button>
 
         {/* 🌙 THEME TOGGLE */}
-        <button
-          onClick={toggleTheme}
-          className="px-3 py-1 border rounded"
-        >
+        <button onClick={toggleTheme} className="px-3 py-1 border rounded">
           {theme === "dark" ? "🌙" : "☀️"}
         </button>
-
-
       </div>
     </nav>
   );

@@ -6,8 +6,7 @@ import { projects } from "@/data/content";
 
 import { useLanguage } from "@/context/LanguageContext";
 
-
-import Link from "next/link"; 
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -23,20 +22,16 @@ export default function Projects() {
     },
   };
 
-
   return (
     <section
       id="projects"
       className="py-28 px-6 md:px-12 border-b border-slate-200 dark:border-slate-800"
     >
       <div className="max-w-7xl mx-auto">
-
         {/* Title */}
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold">
-            {language === "en"
-              ? "Featured Projects"
-              : "Proyectos Destacados"}
+            {language === "en" ? "Featured Projects" : "Proyectos Destacados"}
           </h2>
 
           <div
@@ -52,11 +47,8 @@ export default function Projects() {
         {/* Projects Grid */}
         <motion.div
           variants={container}
-
           initial="hidden"
-
           whileInView="show"
-
           viewport={{ once: false }}
           className="
 
@@ -72,26 +64,22 @@ export default function Projects() {
           {projects
             .filter((project) => project.featured)
             .map((project) => (
-              
-            <ProjectCard
-              key={project.github}
-              title={project.title[language]}
-              description={
-                project.description[language]
-              }
-              image={project.image}
-              tech={project.tech}
-              github={project.github}
-  
-            />
-          ))}
+              <ProjectCard
+                key={project.github}
+                title={project.title[language]}
+                description={project.description[language]}
+                image={project.image}
+                tech={project.tech}
+                github={project.github}
+              />
+            ))}
         </motion.div>
 
         {/* View All Projects Button */}
         <div className="mt-16 text-center">
-        <Link
-          href="/projects"
-          className="
+          <Link
+            href="/projects"
+            className="
             inline-flex items-center
 
             px-8 py-4
@@ -108,13 +96,12 @@ export default function Projects() {
             transition-all duration-300
             hover:-translate-y-1
           "
-        >
-          {language === "en"
-            ? "View All Projects"
-            : "Ver Todos los Proyectos"}
-        </Link>
+          >
+            {language === "en"
+              ? "View All Projects"
+              : "Ver Todos los Proyectos"}
+          </Link>
         </div>
-
       </div>
     </section>
   );
