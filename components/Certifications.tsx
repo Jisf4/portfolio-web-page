@@ -81,7 +81,7 @@ export default function Certifications() {
                 <img
                   src={cert.image}
                   alt={cert.title}
-                  className="w-full h-40 object-cover "
+                  className="w-full h-60 object-cover "
                 />
 
                 <div className="p-4">

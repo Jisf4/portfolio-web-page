@@ -190,7 +190,7 @@ export default function Footer() {
 
             {/* PHONE */}
             <a
-              href="tel:+51999999999"
+              href="tel:+51948950173"
               className="
                 flex items-center gap-3
 
@@ -212,7 +212,7 @@ export default function Footer() {
             {/* SOCIALS */}
             <div className="flex gap-4">
               <a
-                href="https://github.com/youruser"
+                href="https://github.com/Jisf4"
                 target="_blank"
                 className="
                   p-4
@@ -233,7 +233,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://linkedin.com/in/youruser"
+                href="https://www.linkedin.com/in/josue-s%C3%A1nchez-flores-820559196/"
                 target="_blank"
                 className="
                   p-4
@@ -254,7 +254,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://linkedin.com/in/youruser"
+                href="https://leetcode.com/u/jisf4/"
                 target="_blank"
                 className="
                   p-4
@@ -366,7 +366,7 @@ export default function Footer() {
 
             <div className="space-y-4">
               <Link
-                href="/resume.pdf"
+                href="/resume/Josue_Sanchez_Flores-resume.pdf"
                 target="_blank"
                 className="
                   flex items-center justify-between

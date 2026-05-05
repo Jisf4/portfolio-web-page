@@ -80,11 +80,11 @@ export const content = {
         icon: "/icons/c-plusplus.png",
       },
       {
-        name: "Google Cloud Platform",
-        icon: "/icons/google-cloud-platform.png",
+        name: "Google Cloud",
+        icon: "/icons/google-cloud-icon.png",
       },
       {
-        name: "Amazon Web Services",
+        name: "AWS",
         icon: "/icons/aws.png",
       },
       {
@@ -151,13 +151,12 @@ export const content = {
         name: "VSCode",
         icon: "/icons/visual-studio-code.png",
       },
-
     ],
 
     education: [
       {
         degree: "MSc Data Science & AI",
-        institution: "UTEC",
+        institution: "University of technology and engineering (UTEC)",
         period: "2024 - Present",
         logo: "/education/utec.jpg",
 
@@ -165,30 +164,55 @@ export const content = {
           "Artificial Intelligence",
           "Machine Learning",
           "Cloud Computing",
-          "Software Architecture",
+          "Deep Learning",
+          "Statistics",
         ],
 
         achievements: [
           "Top 10% academic performance",
+          "Outstanding participation in MIT program",
           "Research project in logistics prediction",
         ],
       },
+
       {
         degree: "MSc Biomedical Engineering",
-        institution: "PUCP",
+        institution: "Pontificial Catholic University of Peru (PUCP)",
         period: "2020 - 2022",
         logo: "/education/pucp.png",
 
         coursework: [
-          "Artificial Intelligence",
+          "Biomedical Engineering",
+          "Healthcare equipment management",
+          "Clinical Engineering",
+          "Medical imaging processing",
           "Machine Learning",
-          "Cloud Computing",
-          "Software Architecture",
         ],
 
         achievements: [
           "Top 10% academic performance",
-          "Research project in logistics prediction",
+          "Research project in seizure detection applying machine learning algorithms",
+        ],
+      },
+      {
+        degree: "Mechatronics Engineer",
+        institution: "Continental University",
+        period: "2013 - 2018",
+        logo: "/education/continental.png",
+
+        coursework: [
+          "Robotics",
+          "Automation",
+          "Control Systems",
+          "Electronics",
+          "Programming Languages",
+        ],
+
+        achievements: [
+          "Top 10% academic performance",
+          "Research project in 3D printed and low cost prosthetic arm",
+          "First place in project competitions",
+          "Student representative on college student council",
         ],
       },
     ],
@@ -197,67 +221,73 @@ export const content = {
       {
         title: "MIT MISTI Data Science & AI",
         org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        image: "/certs/mit.png",
+        pdf: "/certifications/mit.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "MIT MISTI Data Science & AI - Outstanding participation",
+        org: "UTEC",
+        image: "/certs/mit-s.png",
+        pdf: "/certifications/mit-s.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Introduction to Data science with python",
+        org: "Mastermind",
+        image: "/certs/mastermind-cd.png",
+        pdf: "/certifications/mastermind-cd.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Git from noob to pro",
+        org: "Mastermind",
+        image: "/certs/mastermind-git.png",
+        pdf: "/certifications/mastermind-git.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Introduction to Linux",
+        org: "Mastermind",
+        image: "/certs/mastermind-linux.png",
+        pdf: "/certifications/mastermind-linux.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Entry level python programmer",
+        org: "Python institute",
+        image: "/certs/python.png",
+        pdf: "/certifications/python.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Machine Learning with Python",
+        org: "National University of engineering",
+        image: "/certs/uni-ml.png",
+        pdf: "/certifications/uni-ml.pdf",
+      },
+      {
+        title: "Data analytics with R",
+        org: "Cayetano Heredia Peruvian University",
+        image: "/certs/upch-r.png",
+        pdf: "/certifications/upch-r.pdf",
       },
     ],
 
     terminalCard: {
-      name: "name: \"Josué Sanchez Flores\",",
+      name: 'name: "Josué Sanchez Flores",',
 
-      role: "role: \"AI and Data Science Engineer\",",
+      role: 'role: "AI and Data Science Engineer",',
 
-      location: "location: \"Peru\",",
+      location: 'location: "Perú",',
 
-      education: "education: \"Data Science and AI Master's Student\",",
+      education: 'education: "Data Science and AI Master\'s Student",',
 
-      university: "university: \"UTEC\",",
+      university: 'university: "UTEC",',
 
       const: "engineer",
 
-      build: "engineer.build();"
+      build: "engineer.build();",
     },
 
     titles: {
@@ -288,20 +318,6 @@ export const content = {
     },
 
     experience: [
-      {
-        company: "Platinum Corp SRL",
-        role: "Servicio Técnico y Analista de Datos",
-        period: "Dic 2020 - Jun 2025",
-        description:
-          "Análisis estadístico con Python, SQL y Excel. Desarrollo de dashboards en Power BI. Implementación de soluciones con IA.",
-      },
-      {
-        company: "Universidad Continental",
-        role: "Ingeniero TI",
-        period: "Mar 2018 - Jul 2019",
-        description:
-          "Visualización de datos, automatización de reportes y análisis estadístico.",
-      },
       {
         company: "Platinum Corp SRL",
         role: "Servicio Técnico y Analista de Datos",
@@ -368,11 +384,11 @@ export const content = {
         icon: "/icons/c-plusplus.png",
       },
       {
-        name: "Google Cloud Platform",
-        icon: "/icons/google-cloud-platform.png",
+        name: "Google Cloud",
+        icon: "/icons/google-cloud-icon.png",
       },
       {
-        name: "Amazon Web Services",
+        name: "AWS",
         icon: "/icons/aws.png",
       },
       {
@@ -439,44 +455,69 @@ export const content = {
         name: "VSCode",
         icon: "/icons/visual-studio-code.png",
       },
-
     ],
 
     education: [
       {
-        degree: "MSc Data Science & AI",
-        institution: "UTEC",
-        period: "2024 - Presente",
+        degree: "Maestrando en Data Science e IA",
+        institution: "Universidad de tecnología en ingeniería (UTEC)",
+        period: "2024 - Present",
         logo: "/education/utec.jpg",
 
         coursework: [
-          "Artificial Intelligence",
+          "Inteligencia Artificial",
           "Machine Learning",
-          "Cloud Computing",
-          "Software Architecture",
+          "Computación en la nube",
+          "Computo en paralelo",
+          "Deep Learning",
+          "Estadística",
         ],
 
         achievements: [
-          "Top 10% academic performance",
-          "Research project in logistics prediction",
+          "Rendimiento académico en el 10% superior",
+          "Participación destacada en programa de MIT",
+          "Trabajo de investigación en predicción logística",
         ],
       },
+
       {
-        degree: "MSc Biomedical Engineering",
-        institution: "PUCP",
+        degree: "Magister en Ingeniería Biomédica",
+        institution: "Pontificia Universidad Católica del Perú (PUCP)",
         period: "2020 - 2022",
         logo: "/education/pucp.png",
 
         coursework: [
-          "Artificial Intelligence",
+          "Ingeniería Biomédica",
+          "Administración de equipos de salud",
+          "Ingeniería clinica",
+          "Procesamiento de imágenes médicas",
           "Machine Learning",
-          "Cloud Computing",
-          "Software Architecture",
         ],
 
         achievements: [
-          "Top 10% academic performance",
-          "Research project in logistics prediction",
+          "Rendimiento académico en el 10% superior",
+          "Trabajo de investigación en sistema de detección de epilepsia usando algoritmos de machine learning",
+        ],
+      },
+      {
+        degree: "Ingeniero Mecatrónico",
+        institution: "Universidad Continental",
+        period: "2013 - 2018",
+        logo: "/education/continental.png",
+
+        coursework: [
+          "Robótica",
+          "Automatización",
+          "Sistemas de control",
+          "Electrónica",
+          "Lenguajes de programación",
+        ],
+
+        achievements: [
+          "Rendimiento académico en el 10% superior",
+          "Proyecto de investigación en creación de prótesis de brazo impresa en 3D y de bajo costo",
+          "Primer lugar en competiciones de proyectos de ingeniería",
+          "Representante en consejo estudiantil",
         ],
       },
     ],
@@ -485,69 +526,74 @@ export const content = {
       {
         title: "MIT MISTI Data Science & AI",
         org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        image: "/certs/mit.png",
+        pdf: "/certifications/mit.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "MIT MISTI Data Science & AI - Participación sobresaliente",
+        org: "UTEC",
+        image: "/certs/mit-s.png",
+        pdf: "/certifications/mit-s.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Introducción a ciencia de datos con python",
+        org: "Mastermind",
+        image: "/certs/mastermind-cd.png",
+        pdf: "/certifications/mastermind-cd.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Git de noob a pro",
+        org: "Mastermind",
+        image: "/certs/mastermind-git.png",
+        pdf: "/certifications/mastermind-git.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Introducción a Linux",
+        org: "Mastermind",
+        image: "/certs/mastermind-linux.png",
+        pdf: "/certifications/mastermind-linux.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Programador de python",
+        org: "Python institute",
+        image: "/certs/python.png",
+        pdf: "/certifications/python.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI",
-        org: "MIT",
-        image: "/certs/mit.jpeg",
-        pdf: "/certifications/aws.pdf",
+        title: "Machine Learning con Python",
+        org: "Universidad Nacional de Ingeniería",
+        image: "/certs/uni-ml.png",
+        pdf: "/certifications/uni-ml.pdf",
+      },
+      {
+        title: "Data analytics con R",
+        org: "Universidad Nacional cayetano Heredia",
+        image: "/certs/upch-r.png",
+        pdf: "/certifications/upch-r.pdf",
       },
     ],
 
     terminalCard: {
-      name: "nombre: \"Josué Sánchez Flores\",",
+      name: 'nombre: "Josué Sánchez Flores",',
 
-      role: "rol: \"Ingeniero de ciencia de datos e IA\",",
+      role: 'rol: "Ingeniero de ciencia de datos e IA",',
 
-      location: "localización: \"Perú\",",
+      location: 'localización: "Perú",',
 
-      education: "educación: \"Maestrando en ciencia de datos e ingeniería\",",
+      education: 'educación: "Maestrando en ciencia de datos e ingeniería",',
 
-      university: "universidad: \"UTEC\",",
+      university: 'universidad: "UTEC",',
 
       const: "ingeniero",
-      
-      build: "ingeniero.build();"
-    },
 
+      build: "ingeniero.build();",
+    },
 
     titles: {
       about: "Sobre mí",
@@ -601,31 +647,11 @@ export const projects = [
       es: "Sistema de machine learning para predicción logística y optimización de rutas.",
     },
 
-    image: "/projects/project.jpeg",
+    image: "/projects/silvia.png",
 
-    tech: ["Python", "FastAPI", "GCP", "React"],
+    tech: ["Python", "FastAPI", "GCP", "React", "Node.js"],
 
-    github: "https://github.com/YOUR_USERNAME/project-1",
-
-    featured: true,
-  },
-
-  {
-    title: {
-      en: "Portfolio Website",
-      es: "Portafolio Web",
-    },
-
-    description: {
-      en: "Interactive animated portfolio built with Next.js and Tailwind.",
-      es: "Portafolio interactivo animado construido con Next.js y Tailwind.",
-    },
-
-    image: "/projects/project.jpeg",
-
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-
-    github: "https://github.com/YOUR_USERNAME/project-2",
+    github: "https://github.com/Jisf4/project_SILVIA",
 
     featured: true,
   },
@@ -641,30 +667,89 @@ export const projects = [
       es: "Dashboard interactivo para analítica y visualización en tiempo real.",
     },
 
-    image: "/projects/project.jpeg",
+    image: "/projects/lumina.jpeg",
 
-    tech: ["Python", "Pandas", "Plotly"],
+    tech: ["Python", "FastAPI", "GCP", "React", "Node.js"],
 
-    github: "https://github.com/YOUR_USERNAME/project-3",
+    github: "https://github.com/Jisf4/datalandia",
 
     featured: true,
   },
 
   {
     title: {
-      en: "Test Project",
-      es: "Proyecto de prueba",
+      en: "YOGA model implementation from scratch for image segmentation",
+      es: "Implementación de modelo YOGA para segmentación de imágenes",
     },
 
     description: {
-      en: "Interactive dashboard for real-time analytics and visualization.",
-      es: "Dashboard interactivo para analítica y visualización en tiempo real.",
+      en: "Scratch implementation of YOGA architecture for image segmentation on BDD, VisDrone and VOC datasets.",
+      es: "Implementación desde cero de arquitectura YOGA para segmentación de imágenes en las bases de datos BDD, VisDrone y VOC.",
     },
 
-    image: "/projects/project.jpeg",
+    image: "/projects/yoga.png",
 
-    tech: ["Python", "Pandas", "Plotly"],
+    tech: ["Python", "Numpy", "Torchvision","OpenCV","Scipy"],
 
-    github: "https://github.com/YOUR_USERNAME/project-4",
+    github: "https://github.com/Jisf4/DL_Lab02",
+    
+    featured: true,
   },
+
+
+  {
+    title: {
+      en: "Voice cloning Chatbot",
+      es: "Chatbot con clonación de voz",
+    },
+
+    description: {
+      en: "Chatbot implemented in colab using lightweight LLM models, STT and a voice cloning TTS.",
+      es: "Chatbot implementado en colab usando modelos de LLM ligeros, STT y TTS con clonación de voz.",
+    },
+
+    image: "/projects/chatbot.png",
+
+    tech: ["Python", "Hugging face"],
+
+    github: "https://github.com/Jisf4/DL_Lab03",
+
+  },
+
+  {
+    title: {
+      en: "Image modification with stable diffussion models on ComfyUI",
+      es: "Modificación de imágenes con modelos de difusión estable en ComfyUI",
+    },
+
+    description: {
+      en: "Node based pipeline for image modification with face preservation applying stable diffussion models.",
+      es: "Pipeline basado en nodos para modificación de imagen con preservación de rostro aplicando modelos de difusión estable.",
+    },
+
+    image: "/projects/comfy.png",
+
+    tech: ["Python", "ComfyUI"],
+
+    github: "https://github.com/Jisf4/DL_Lab04",
+  },
+
+  {
+    title: {
+      en: "English pronunciation learning platform",
+      es: "Plataforma de aprendizaje de pronunción en inglés",
+    },
+
+    description: {
+      en: "Interactive and kids friendly platform for english pronunciation practice.",
+      es: "Plataforma interactiva para práctica de pronunciación en inglés orientada para niños.",
+    },
+
+    image: "/projects/random.png",
+
+    tech: ["HTML"],
+
+    github: "https://github.com/Jisf4/RandomImage",
+  },
+
 ];

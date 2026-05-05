@@ -73,7 +73,7 @@ export default function ProjectCard({
           height={700}
           className="
             w-full
-            h-56
+            h-full
             object-cover
 
             transition-transform duration-700
