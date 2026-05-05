@@ -64,7 +64,7 @@ export default function About() {
 
           grid
           grid-cols-1
-          lg:grid-cols-[465px_1fr]
+          lg:grid-cols-[460px_1fr]
        
           gap-5
           items-stretch

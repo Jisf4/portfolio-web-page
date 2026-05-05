@@ -586,7 +586,7 @@ export const content = {
 
       location: 'localización: "Perú",',
 
-      education: 'educación: "Maestrando en ciencia de datos e ingeniería",',
+      education: 'educación: "Maestrando en ciencia de datos e IA",',
 
       university: 'universidad: "UTEC",',
 
