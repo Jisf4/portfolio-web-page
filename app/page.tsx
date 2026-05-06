@@ -19,11 +19,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
+      <Projects />
       <Skills />
       <Certifications />
-      <Projects />
       <Experience />
-      <Education />
       <Footer />
     </main>
   );

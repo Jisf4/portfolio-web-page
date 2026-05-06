@@ -25,6 +25,8 @@ export default function Hero() {
     show: { opacity: 1, y: 0 },
   };
 
+  const resume = t.resume.name
+
   return (
     <section
       id="home"
@@ -116,7 +118,7 @@ export default function Hero() {
               </a>
 
               {/* DOWNLOAD CV */}
-              <a href="/resume/Josue_Sanchez_Flores-resume.pdf" download>
+              <a href={resume} target="_blank">
                 <button
                   className="
           px-6 py-3 rounded-xl
@@ -183,7 +185,7 @@ export default function Hero() {
           bg-white/60 dark:bg-slate-900/60
           border border-slate-200 dark:border-slate-800
           backdrop-blur-sm
-
+          hidden
           hover:-translate-y-1
           hover:text-cyan-500
 
@@ -200,7 +202,7 @@ export default function Hero() {
           bg-white/60 dark:bg-slate-900/60
           border border-slate-200 dark:border-slate-800
           backdrop-blur-sm
-
+      
           hover:-translate-y-1
           hover:text-cyan-500
 

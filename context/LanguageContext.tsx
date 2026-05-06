@@ -22,7 +22,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 
 // Provider
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const [language, setLanguage] = useState<Language>("es");
+  const [language, setLanguage] = useState<Language>("en");
 
   // Select content dynamically
   const t = content[language];

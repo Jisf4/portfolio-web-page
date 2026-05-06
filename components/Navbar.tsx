@@ -21,11 +21,11 @@ export default function Navbar() {
   const navItems = [
     { label: navbar[language].home, href: "#home" },
     { label: navbar[language].about, href: "#about" },
+    { label: navbar[language].education, href: "#education" },
+    { label: navbar[language].projects, href: "#projects" },
     { label: navbar[language].skills, href: "#skills" },
     { label: navbar[language].certifications, href: "#certifications" },
-    { label: navbar[language].projects, href: "#projects" },
     { label: navbar[language].experience, href: "#experience" },
-    { label: navbar[language].education, href: "#education" },
     { label: navbar[language].contact, href: "#contact" },
   ];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

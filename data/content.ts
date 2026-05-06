@@ -4,29 +4,29 @@ export const content = {
   en: {
     hero: {
       name: "Josué Sánchez Flores",
-      title: "Mechatronics Engineer | Data Science & AI",
+      title: "Mechatronics Engineer | Software, Data Science & AI",
       description:
-        "I build data-driven solutions, combining engineering, analytics and artificial intelligence.",
+        "I build meaningful solutions, combining engineering, software, analytics and artificial intelligence.",
     },
 
     about: {
-      text: `I am a proactive and analytical engineer with strong experience in data analysis, artificial intelligence, and technical problem-solving. I enjoy building efficient solutions and continuously learning new technologies.`,
+      text: `I am a proactive and analytical engineer with strong experience in software, data analysis, artificial intelligence, and technical problem-solving. I enjoy building efficient solutions and continuously learning new technologies.`,
     },
 
     experience: [
       {
         company: "Platinum Corp SRL",
-        role: "Technical Service & Data Analyst",
+        role: "Technical and Data Operations Engineer",
         period: "Dec 2020 - Jun 2025",
         description:
-          "Statistical analysis using Python, SQL, and Excel. Development of dashboards in Power BI. Implementation of AI-based solutions. Technical maintenance and team management.",
+          "Developed automation workflows, OCR systems, analytics pipelines, and machine learning solutions using Python, OpenCV, SQL, and cloud technologies to optimize operational processes and support data-driven decision-making. Built internal OCR tools that reduced manual processing by 90%, designed KPI dashboards with Power BI and cloud-based workflows, implemented XGBoost forecasting models for spare parts demand prediction, and collaborated with IT and BI teams on automation, analytics, and cloud migration initiatives using AWS, GCP, Google BigQuery, and SQL databases, while also producing technical documentation aligned with quality and ISO-related standards.",
       },
       {
-        company: "Universidad Continental",
-        role: "IT Engineer",
+        company: "Continental University",
+        role: "IT and Data Analysis Assistant",
         period: "Mar 2018 - Jul 2019",
         description:
-          "Data visualization, report automation, and statistical analysis.",
+          "Automated internal reporting and operational workflows using Python, Excel, and Visual Basic, while developing data analysis tools and statistical reporting systems to support operational and market evaluation initiatives. Also contributed to internal technology support and technical automation projects aimed at improving efficiency and process reliability.",
       },
     ],
 
@@ -156,7 +156,7 @@ export const content = {
     education: [
       {
         degree: "MSc Data Science & AI",
-        institution: "University of technology and engineering (UTEC)",
+        institution: "University of engineering and technology (UTEC)",
         period: "2024 - Present",
         logo: "/education/utec.jpg",
 
@@ -191,7 +191,7 @@ export const content = {
 
         achievements: [
           "Top 10% academic performance",
-          "Research project in seizure detection applying machine learning algorithms",
+          "Research project about seizure detection applying machine learning algorithms",
         ],
       },
       {
@@ -211,7 +211,7 @@ export const content = {
         achievements: [
           "Top 10% academic performance",
           "Research project in 3D printed and low cost prosthetic arm",
-          "First place in project competitions",
+          "First place in engineering project competitions",
           "Student representative on college student council",
         ],
       },
@@ -222,55 +222,92 @@ export const content = {
         title: "MIT MISTI Data Science & AI",
         org: "MIT",
         image: "/certs/mit.png",
-        pdf: "/certifications/mit.pdf",
+        pdf: "/certifications/mit_certificate_josue_sanchez.pdf",
         featured: true,
       },
       {
         title: "MIT MISTI Data Science & AI - Outstanding participation",
-        org: "UTEC",
+        org: "University of engineering and technology",
         image: "/certs/mit-s.png",
-        pdf: "/certifications/mit-s.pdf",
+        pdf: "/certifications/mit_outstanding_certificate_josue_sanchez.pdf",
         featured: true,
       },
+
       {
-        title: "Introduction to Data science with python",
-        org: "Mastermind",
-        image: "/certs/mastermind-cd.png",
-        pdf: "/certifications/mastermind-cd.pdf",
-        featured: true,
-      },
-      {
-        title: "Git from noob to pro",
+        title: "Git from begineer to professional",
         org: "Mastermind",
         image: "/certs/mastermind-git.png",
-        pdf: "/certifications/mastermind-git.pdf",
+        pdf: "/certifications/git_certificate_josue_sanchez.pdf",
         featured: true,
       },
       {
         title: "Introduction to Linux",
         org: "Mastermind",
         image: "/certs/mastermind-linux.png",
-        pdf: "/certifications/mastermind-linux.pdf",
+        pdf: "/certifications/linux_certificate_josue_sanchez.pdf",
         featured: true,
       },
       {
         title: "Entry level python programmer",
-        org: "Python institute",
+        org: "Python Institute",
         image: "/certs/python.png",
-        pdf: "/certifications/python.pdf",
+        pdf: "/certifications/python_certificate_josue_sanchez.pdf",
         featured: true,
+      },
+      {
+        title: "Academic performance certificate",
+        org: "Continental University",
+        image: "/certs/boleta.jpeg",
+        pdf: "/certifications/academic_performance_certificate_josue_sanchez.pdf",
+        featured: true,
+      },
+      {
+        title: "Introduction to Data science with python",
+        org: "Mastermind",
+        image: "/certs/mastermind-cd.png",
+        pdf: "/certifications/data_science_certificate_josue_sanchez.pdf",
       },
       {
         title: "Machine Learning with Python",
         org: "National University of engineering",
         image: "/certs/uni-ml.png",
-        pdf: "/certifications/uni-ml.pdf",
+        pdf: "/certifications/machine_learning_certificate_josue_sanchez.pdf",
       },
       {
         title: "Data analytics with R",
         org: "Cayetano Heredia Peruvian University",
         image: "/certs/upch-r.png",
-        pdf: "/certifications/upch-r.pdf",
+        pdf: "/certifications/data_analytics_with_r_josue_sanchez",
+      },
+      {
+        title: "EMBS project participation",
+        org: "Institute of Electrical and Electronic Engineers (IEEE)",
+        image: "/certs/embs.png",
+        pdf: "/certifications/EMBS_participation_josue_sanchez.pdf",
+      },
+      {
+        title: "Pantent",
+        org: "INDECOPI - Perú",
+        image: "/certs/patente.png",
+        pdf: "/certifications/patent_josue_sanchez.pdf",
+      },
+      {
+        title: "Academic publication",
+        org: "Ingenieare (Scientific journal indexed in Scielo and Scopus)",
+        image: "/certs/articulo.png",
+        pdf: "/certifications/scientific_journal_publication_josue_sanchez.pdf",
+      },
+      {
+        title: "1st place in 3th Engineering projects competition",
+        org: "Continental University",
+        image: "/certs/feria1.png",
+        pdf: "/certifications/III_engineering_competition_1st_place_josue_sanchez.pdf",
+      },
+      {
+        title: "1st place in 4th Engineering projects competition",
+        org: "Continental University",
+        image: "/certs/feria2.png",
+        pdf: "/certifications/IV_engineering_competition_1st_place_josue_sanchez.pdf",
       },
     ],
 
@@ -296,41 +333,47 @@ export const content = {
       projects: "Projects",
       experience: "Experience",
       education: "Education",
-      certifications: "Certifications",
+      certifications: "Certifications and awards",
       contact: "Contact",
     },
+
     buttons: {
       projects: "View Projects",
       cv: "Download CV",
     },
+
+    resume: {
+      name:"/resume/Resume_EN_Josue_Sanchez.pdf"
+    },
+
   },
 
   es: {
     hero: {
       name: "Josué Sánchez Flores",
-      title: "Ingeniero Mecatrónico | Ciencia de Datos e IA",
+      title: "Ingeniero Mecatrónico | Software, Ciencia de Datos e IA",
       description:
-        "Construyo soluciones basadas en datos combinando ingeniería, analítica e inteligencia artificial.",
+        "Construyo soluciones significativas combinando ingeniería, software, analítica e inteligencia artificial.",
     },
 
     about: {
-      text: `Soy un ingeniero proactivo y analítico con experiencia en análisis de datos, inteligencia artificial y resolución de problemas técnicos. Disfruto construir soluciones eficientes y aprender nuevas tecnologías constantemente.`,
+      text: `Soy un ingeniero proactivo y analítico con experiencia en software, análisis de datos, inteligencia artificial y resolución de problemas técnicos. Disfruto construir soluciones eficientes y aprender nuevas tecnologías constantemente.`,
     },
 
     experience: [
       {
         company: "Platinum Corp SRL",
-        role: "Servicio Técnico y Analista de Datos",
+        role: "Ingeniero de Operaciones Técnicas y de Datos",
         period: "Dic 2020 - Jun 2025",
         description:
-          "Análisis estadístico con Python, SQL y Excel. Desarrollo de dashboards en Power BI. Implementación de soluciones con IA.",
+          "Desarrollé flujos de trabajo de automatización, sistemas OCR, pipelines de análisis y soluciones de aprendizaje automático utilizando Python, OpenCV, SQL y tecnologías en la nube para optimizar los procesos operativos y respaldar la toma de decisiones basada en datos. Creé herramientas internas de OCR que redujeron el procesamiento manual en un 90%, diseñé paneles de KPI con Power BI y flujos de trabajo basados ​​en la nube, implementé modelos de pronóstico XGBoost para la predicción de la demanda de repuestos y colaboré con los equipos de TI e inteligencia empresarial en iniciativas de automatización, análisis y migración a la nube utilizando AWS, GCP, Google BigQuery y bases de datos SQL, además de producir documentación técnica alineada con los estándares de calidad y las normas ISO.",
       },
       {
         company: "Universidad Continental",
-        role: "Ingeniero TI",
+        role: "Asistente de TI y Análisis de Datos",
         period: "Mar 2018 - Jul 2019",
         description:
-          "Visualización de datos, automatización de reportes y análisis estadístico.",
+          "Automatización de informes internos y operaciones flujos de trabajo utilizando Python, Excel y Visual Basic, a la vez que se desarrollaba herramientas de análisis de datos y sistemas de informes estadísticos para respaldar las iniciativas de evaluación operativa y de mercado. También contribuí al soporte tecnológico interno y a proyectos de automatización técnica destinados a mejorar la eficiencia y la fiabilidad de los procesos.",
       },
     ],
 
@@ -460,7 +503,7 @@ export const content = {
     education: [
       {
         degree: "Maestrando en Data Science e IA",
-        institution: "Universidad de tecnología en ingeniería (UTEC)",
+        institution: "Universidad de ingeniería y tecnología (UTEC)",
         period: "2024 - Present",
         logo: "/education/utec.jpg",
 
@@ -468,7 +511,7 @@ export const content = {
           "Inteligencia Artificial",
           "Machine Learning",
           "Computación en la nube",
-          "Computo en paralelo",
+          "Cómputo en paralelo",
           "Deep Learning",
           "Estadística",
         ],
@@ -524,58 +567,95 @@ export const content = {
 
     certifications: [
       {
-        title: "MIT MISTI Data Science & AI",
+        title: "MIT MISTI Ciencia de datos e IA",
         org: "MIT",
         image: "/certs/mit.png",
-        pdf: "/certifications/mit.pdf",
+        pdf: "/certifications/mit_certificate_josue_sanchez.pdf",
         featured: true,
       },
       {
-        title: "MIT MISTI Data Science & AI - Participación sobresaliente",
+        title: "MIT MISTI participación sobresaliente",
         org: "UTEC",
         image: "/certs/mit-s.png",
-        pdf: "/certifications/mit-s.pdf",
+        pdf: "/certifications/mit_outstanding_certificate_josue_sanchez.pdf",
         featured: true,
       },
+
       {
-        title: "Introducción a ciencia de datos con python",
-        org: "Mastermind",
-        image: "/certs/mastermind-cd.png",
-        pdf: "/certifications/mastermind-cd.pdf",
-        featured: true,
-      },
-      {
-        title: "Git de noob a pro",
+        title: "Git de principiante a profesional",
         org: "Mastermind",
         image: "/certs/mastermind-git.png",
-        pdf: "/certifications/mastermind-git.pdf",
+        pdf: "/certifications/git_certificate_josue_sanchez.pdf",
         featured: true,
       },
       {
         title: "Introducción a Linux",
         org: "Mastermind",
         image: "/certs/mastermind-linux.png",
-        pdf: "/certifications/mastermind-linux.pdf",
+        pdf: "/certifications/linux_certificate_josue_sanchez.pdf",
         featured: true,
       },
       {
-        title: "Programador de python",
-        org: "Python institute",
+        title: "Programador de Python",
+        org: "Python Institute",
         image: "/certs/python.png",
-        pdf: "/certifications/python.pdf",
+        pdf: "/certifications/python_certificate_josue_sanchez.pdf",
         featured: true,
+      },
+      {
+        title: "Certificado de excelencia académica",
+        org: "Universidad Continental",
+        image: "/certs/boleta.jpeg",
+        pdf: "/certifications/academic_performance_certificate_josue_sanchez.pdf",
+        featured: true,
+      },
+      {
+        title: "Introducción a ciencia de datos con Python",
+        org: "Mastermind",
+        image: "/certs/mastermind-cd.png",
+        pdf: "/certifications/data_science_certificate_josue_sanchez.pdf",
       },
       {
         title: "Machine Learning con Python",
         org: "Universidad Nacional de Ingeniería",
         image: "/certs/uni-ml.png",
-        pdf: "/certifications/uni-ml.pdf",
+        pdf: "/certifications/machine_learning_certificate_josue_sanchez.pdf",
       },
       {
         title: "Data analytics con R",
-        org: "Universidad Nacional cayetano Heredia",
+        org: "Universidad Peruana Cayetano Heredia",
         image: "/certs/upch-r.png",
-        pdf: "/certifications/upch-r.pdf",
+        pdf: "/certifications/data_analytics_with_r_josue_sanchez",
+      },
+      {
+        title: "Participación con proyecto en EMBS",
+        org: "Instituto de ingenieros eléctricos y electrónicos (IEEE)",
+        image: "/certs/embs.png",
+        pdf: "/certifications/EMBS_participation_josue_sanchez.pdf",
+      },
+      {
+        title: "Pantente",
+        org: "INDECOPI - Perú",
+        image: "/certs/patente.png",
+        pdf: "/certifications/patent_josue_sanchez.pdf",
+      },
+      {
+        title: "Publicación académica",
+        org: "Ingenieare (Revista científica indexada en Scielo y Scopus)",
+        image: "/certs/articulo.png",
+        pdf: "/certifications/scientific_journal_publication_josue_sanchez.pdf",
+      },
+      {
+        title: "1er lugar en 3ra feria de proyectos de ingeniería",
+        org: "Universidad Continental",
+        image: "/certs/feria1.png",
+        pdf: "/certifications/III_engineering_competition_1st_place_josue_sanchez.pdf",
+      },
+      {
+        title: "1er lugar en 4ta feria de proyectos de ingeniería",
+        org: "Universidad Continental",
+        image: "/certs/feria2.png",
+        pdf: "/certifications/IV_engineering_competition_1st_place_josue_sanchez.pdf",
       },
     ],
 
@@ -601,12 +681,16 @@ export const content = {
       projects: "Proyectos",
       experience: "Experiencia",
       education: "Educación",
-      certifications: "Certificaciones",
+      certifications: "Certificaciones y reconocimientos",
       contact: "Contacto",
     },
     buttons: {
       projects: "Ver Proyectos",
       cv: "Descargar CV",
+    },
+
+    resume: {
+      name:"/resume/Resume_ES_Josue_Sanchez.pdf"
     },
   },
 };

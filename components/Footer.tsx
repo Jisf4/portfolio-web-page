@@ -32,6 +32,8 @@ export default function Footer() {
     show: { opacity: 1, y: 0 },
   };
 
+  const resume = t.resume.name
+
   return (
     <footer id="contact" className="px-6 md:px-12 py-16">
       <motion.div
@@ -366,7 +368,7 @@ export default function Footer() {
 
             <div className="space-y-4">
               <Link
-                href="/resume/Josue_Sanchez_Flores-resume.pdf"
+                href={resume}
                 target="_blank"
                 className="
                   flex items-center justify-between
@@ -458,7 +460,7 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="mt-14 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © 2026 Josue. All rights reserved.
+            © 2026 Josue. Build with Tailwind CSS and deployed on vercel. All rights reserved.
           </p>
 
           <a
