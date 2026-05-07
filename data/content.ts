@@ -169,7 +169,6 @@ export const content = {
         ],
 
         achievements: [
-          "Top 10% academic performance",
           "Outstanding participation in MIT program",
           "Research project in logistics prediction",
         ],
@@ -190,7 +189,6 @@ export const content = {
         ],
 
         achievements: [
-          "Top 10% academic performance",
           "Research project about seizure detection applying machine learning algorithms",
         ],
       },
@@ -209,7 +207,7 @@ export const content = {
         ],
 
         achievements: [
-          "Top 10% academic performance",
+          "Top 5% academic performance",
           "Research project in 3D printed and low cost prosthetic arm",
           "First place in engineering project competitions",
           "Student representative on college student council",
@@ -517,7 +515,6 @@ export const content = {
         ],
 
         achievements: [
-          "Rendimiento académico en el 10% superior",
           "Participación destacada en programa de MIT",
           "Trabajo de investigación en predicción logística",
         ],
@@ -538,7 +535,6 @@ export const content = {
         ],
 
         achievements: [
-          "Rendimiento académico en el 10% superior",
           "Trabajo de investigación en sistema de detección de epilepsia usando algoritmos de machine learning",
         ],
       },
@@ -557,7 +553,7 @@ export const content = {
         ],
 
         achievements: [
-          "Rendimiento académico en el 10% superior",
+          "Rendimiento académico en el 5% superior",
           "Proyecto de investigación en creación de prótesis de brazo impresa en 3D y de bajo costo",
           "Primer lugar en competiciones de proyectos de ingeniería",
           "Representante en consejo estudiantil",
