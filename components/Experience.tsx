@@ -46,16 +46,20 @@ export default function Experience() {
               {/* DOT */}
 
               {/* CONTENT */}
-              <h3 className="text-xl font-semibold">
-                {/* 🔴 EDIT IN content.ts → experience */}
-                {exp.role}
-              </h3>
+              <h3 className="text-xl font-semibold">{exp.role}</h3>
 
               <p className="text-sm text-gray-500 mb-1">
                 {exp.company} | {exp.period}
               </p>
 
-              <p className="text-gray-600 dark:text-gray-300">
+              <p
+                className="text-gray-600 dark:text-gray-300 text-justify p-5
+              rounded-2xl
+              border border-slate-200 dark:border-slate-800
+              bg-white/40 dark:bg-slate-900/70
+              backdrop-blur-xl
+              shadow-2xl"
+              >
                 {exp.description}
               </p>
             </motion.div>

@@ -50,22 +50,18 @@ export default function ProjectCard({
         relative
         overflow-hidden
         rounded-3xl
-
         bg-white
         dark:bg-white/5
         shadow-lg shadow-slate-200/50 dark:shadow-black/20
         backdrop-blur-xl
-
         border border-white/10
-
         hover:border-cyan-500/30
         hover:-translate-y-2
-
         transition-all duration-500
       "
     >
       {/* Project Image */}
-      <div className="relative overflow-hidden">
+      <div className="relative  overflow-hidden">
         <Image
           src={image}
           alt={title}
@@ -73,9 +69,8 @@ export default function ProjectCard({
           height={700}
           className="
             w-full
-            h-full
-            object-cover
-
+            h-65
+            object-center
             transition-transform duration-700
             group-hover:scale-105
           "

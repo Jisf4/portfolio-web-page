@@ -275,7 +275,7 @@ export const content = {
         title: "Data analytics with R",
         org: "Cayetano Heredia Peruvian University",
         image: "/certs/upch-r.png",
-        pdf: "/certifications/data_analytics_with_r_josue_sanchez",
+        pdf: "/certifications/data_analytics_with_r_josue_sanchez.pdf",
       },
       {
         title: "EMBS project participation",
@@ -320,6 +320,8 @@ export const content = {
 
       university: 'university: "UTEC",',
 
+      language: 'languages: "Spanish (native), English (C1), Italian (A2),"',
+
       const: "engineer",
 
       build: "engineer.build();",
@@ -341,9 +343,8 @@ export const content = {
     },
 
     resume: {
-      name:"/resume/Resume_EN_Josue_Sanchez.pdf"
+      name: "/resume/Resume_EN_Josue_Sanchez.pdf",
     },
-
   },
 
   es: {
@@ -621,7 +622,7 @@ export const content = {
         title: "Data analytics con R",
         org: "Universidad Peruana Cayetano Heredia",
         image: "/certs/upch-r.png",
-        pdf: "/certifications/data_analytics_with_r_josue_sanchez",
+        pdf: "/certifications/data_analytics_with_r_josue_sanchez.pdf",
       },
       {
         title: "Participación con proyecto en EMBS",
@@ -666,6 +667,8 @@ export const content = {
 
       university: 'universidad: "UTEC",',
 
+      language: 'idiomas: "Español (nativo), Inglés (C1), Italiano (A2)"',
+
       const: "ingeniero",
 
       build: "ingeniero.build();",
@@ -686,7 +689,7 @@ export const content = {
     },
 
     resume: {
-      name:"/resume/Resume_ES_Josue_Sanchez.pdf"
+      name: "/resume/Resume_ES_Josue_Sanchez.pdf",
     },
   },
 };
@@ -769,13 +772,12 @@ export const projects = [
 
     image: "/projects/yoga.png",
 
-    tech: ["Python", "Numpy", "Torchvision","OpenCV","Scipy"],
+    tech: ["Python", "Numpy", "Torchvision", "OpenCV", "Scipy"],
 
     github: "https://github.com/Jisf4/DL_Lab02",
-    
+
     featured: true,
   },
-
 
   {
     title: {
@@ -793,7 +795,6 @@ export const projects = [
     tech: ["Python", "Hugging face"],
 
     github: "https://github.com/Jisf4/DL_Lab03",
-
   },
 
   {
@@ -831,5 +832,4 @@ export const projects = [
 
     github: "https://github.com/Jisf4/RandomImage",
   },
-
 ];

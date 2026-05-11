@@ -137,30 +137,27 @@ export default function CertificationsPage() {
                   })
                 }
                 whileHover={{
-                  scale: 1.05,
+                  scale: 1.4,
                 }}
                 className="
                   p-4
                   rounded-2xl
                   text-center
-
+                  z-0
                   bg-white/80
                   dark:bg-slate-900/80
-
                   backdrop-blur-md
-
                   border
                   border-slate-200
                   dark:border-slate-800
-
                   shadow-lg
                   shadow-slate-200/50
                   dark:shadow-black/20
-
                   hover:-translate-y-2
                   hover:shadow-2xl
+                  hover:z-40
                   cursor-pointer
-                  transition-all duration-300
+                  transition-all duration-80
                 "
               >
                 <img
@@ -168,8 +165,8 @@ export default function CertificationsPage() {
                   alt={cert.title}
                   className="
                     w-full
-                    h-40
-                    object-cover
+                    h-60
+                    object-center
                   "
                 />
 

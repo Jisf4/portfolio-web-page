@@ -51,13 +51,9 @@ export default function Projects() {
           whileInView="show"
           viewport={{ once: false }}
           className="
-
-
             grid
-
             md:grid-cols-2
             xl:grid-cols-3
-            
             gap-8
           "
         >

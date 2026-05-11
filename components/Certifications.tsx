@@ -68,20 +68,20 @@ export default function Certifications() {
                     title: cert.title,
                   })
                 }
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.6 }}
                 className="p-4 rounded-2xl text-center
                         bg-white/80 dark:bg-slate-900/80
-                        backdrop-blur-md
+                        backdrop-blur-md z-0
                         border border-slate-200 dark:border-slate-800
                         shadow-lg shadow-slate-200/50 dark:shadow-black/20
-                        hover:-translate-y-2 hover:shadow-2xl
-                        transition-all duration-300 cursor-pointer"
+                        hover:-translate-y-2 hover:shadow-2xl hover:z-40
+                        transition-all duration-80 cursor-pointer"
               >
                 {/* IMAGE */}
                 <img
                   src={cert.image}
                   alt={cert.title}
-                  className="w-full h-60 object-cover "
+                  className="w-full h-60 object-center "
                 />
 
                 <div className="p-4">

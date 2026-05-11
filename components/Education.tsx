@@ -48,11 +48,11 @@ export default function Education() {
                   className="
                   rounded-2xl
                   object-contain
-
-                  bg-white/5
+                  bg-slate-200/30
+                  dark:bg-white/5
                   p-2
-
-                  border border-white/10
+                  border border-slate-400 
+                  dark:border-white/10
                 "
                 />
               </div>
@@ -68,10 +68,8 @@ export default function Education() {
                     px-3 py-1
                     rounded-full
                     text-sm
-
                     bg-cyan-500/10
                     text-cyan-400
-
                     border border-cyan-500/20
                   "
                   >
@@ -80,18 +78,21 @@ export default function Education() {
                 ))}
               </div>
 
-              <div className="mt-6 space-y-2 text-left">
+              <div
+                className="mt-6 space-y-2 text-left rounded-2xl p-6  
+              border border-cyan-500/20 bg-cyan-500/10"
+              >
                 {edu.achievements.map((achievement, idx) => (
                   <div
                     key={idx}
                     className="
-                    flex items-start gap-2
-
+                    flex items-center gap-2
+                    font-semibold
                     text-sm
                     text-gray-600 dark:text-gray-300
                   "
                   >
-                    <span className="text-cyan-400 mt-1">•</span>
+                    <span className=" text-cyan-400  ">•</span>
 
                     <span>{achievement}</span>
                   </div>

@@ -22,9 +22,10 @@ export default function About() {
     `${t.terminalCard.role}`,
     `${t.terminalCard.location}`,
     `${t.terminalCard.education}`,
+    `${t.terminalCard.language}`,
     `};`,
     ``,
-    `engineer.build();`,
+    `${t.terminalCard.build}`,
   ];
   const fullTextLength = terminalLines.join("\n").length;
 
@@ -234,7 +235,7 @@ export default function About() {
                           )}
 
                           {/* LINES 2-5 */}
-                          {[1, 2, 3, 4].includes(index) && (
+                          {[1, 2, 3, 4, 5].includes(index) && (
                             <>
                               <span className="text-slate-700 dark:text-slate-300">
                                 &nbsp;&nbsp;
@@ -251,17 +252,17 @@ export default function About() {
                           )}
 
                           {/* LINE 6 */}
-                          {index === 5 && (
+                          {index === 6 && (
                             <span className="text-slate-700 dark:text-slate-300">
                               {visiblePart}
                             </span>
                           )}
 
                           {/* EMPTY LINE */}
-                          {index === 6 && <span>{visiblePart}</span>}
+                          {index === 7 && <span>{visiblePart}</span>}
 
                           {/* FINAL LINE */}
-                          {index === 7 && (
+                          {index === 8 && (
                             <>
                               <span className="text-slate-800 dark:text-white">
                                 {visiblePart.slice(0, visiblePart.indexOf("."))}
