@@ -77,18 +77,13 @@ export default function Projects() {
             href="/projects"
             className="
             inline-flex items-center
-
             px-8 py-4
             rounded-2xl
-
             bg-cyan-500/10
             hover:bg-cyan-500/20
-
             border border-cyan-500/20
-
             text-cyan-400
             font-medium
-
             transition-all duration-300
             hover:-translate-y-1
           "

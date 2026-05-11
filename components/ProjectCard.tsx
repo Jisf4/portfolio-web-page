@@ -122,15 +122,11 @@ export default function ProjectCard({
             rel="noopener noreferrer"
             className="
               flex items-center gap-2
-
               px-4 py-2
               rounded-xl
-
               bg-white/10
               hover:bg-cyan-500/20
-
               border border-white/10
-
               transition-all duration-300
             "
           >

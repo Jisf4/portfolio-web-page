@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
+import { X } from "lucide-react";
 
 interface CertificationModalProps {
   isOpen: boolean;
@@ -22,7 +23,6 @@ export default function CertificationModal({
         onClose();
       }
     };
-
     if (isOpen) {
       document.body.style.overflow = "hidden";
 
@@ -30,7 +30,6 @@ export default function CertificationModal({
     } else {
       document.body.style.overflow = "auto";
     }
-
     return () => {
       document.body.style.overflow = "auto";
 
@@ -49,7 +48,6 @@ export default function CertificationModal({
             className="
               fixed inset-0
               z-40
-
               bg-black/70
               backdrop-blur-sm
             "
@@ -78,26 +76,26 @@ export default function CertificationModal({
             className="
               fixed inset-0
               z-40
-
               flex items-center
               justify-center
-
               p-6
             "
           >
             <div
               className="
                 relative
-                
+                bg-white/30
+                dark:bg-slate-500/30
+                p-2
                 max-w-5xl
                 w-full
-
+                h-215
                 rounded-3xl
                 overflow-hidden
-            
                 bg-slate-900
-                border border-white/10
-
+                border
+                border-slate-800 
+                dark:border-white/10
                 shadow-2xl
               "
             >
@@ -106,8 +104,7 @@ export default function CertificationModal({
                 src={pdf}
                 className="
                     w-full
-                    h-[85vh]
-
+                    h-full
                     rounded-2xl
                 "
                 title={title}
@@ -118,24 +115,19 @@ export default function CertificationModal({
                 onClick={onClose}
                 className="
                 absolute
-                top-20 left-4
-
+                top-18 left-5
                 z-10
-
                 w-10 h-10
-
                 rounded-full
-
                 bg-cyan-500/40
                 hover:bg-cyan-500/80
-
+                border border-cyan-500/90
                 text-white
-                text-xl
-
                 transition-all duration-300
+
             "
               >
-                ✕
+                <X size={28} className="w-full h-full" />
               </button>
             </div>
           </motion.div>
