@@ -460,7 +460,7 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="mt-14 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © 2026 Josue. Build with Tailwind CSS and deployed on vercel. All rights reserved.
+            © 2026 Josue. Built with Tailwind CSS and deployed on vercel. All rights reserved.
           </p>
 
           <a
